@@ -1,0 +1,76 @@
+export const CONVENCIONES = [
+  { label: "→", value: "viene" },
+  { label: "↑", value: "inicia" },
+  { label: "▲", value: "cambia" },
+  { label: "↓", value: "susp" },
+];
+
+// Datos base para la tabla de invasivos
+export const INVASIVOS_BASE = [
+  { tipo: "cateter central", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter mahurkar", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter swan-ganz", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "embolizacion de aneurisma", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter arterial", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter PIC", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter drum", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "venopunsion", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "sonda vesical", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "introductor de marcapaso transv", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "marcapaso trasvenoso", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "marcapaso epicardico", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "marcapaso trascutaneo", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "colostomia", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "sonda punta tungsteno", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateterismo cardiaco", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "tubo a torax", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "tubo mediastinal", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "traqueostomia", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "intubacion orotraqueal", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "herida quirurgica", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "gastrostomia", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter CAPD", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter ventriculostomia", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter multiproposito", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "drenaje hemovac", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "teraopia VAC", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "cateter PIA", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+  { tipo: "OTRO", sitio: "", mtn: { convencion_m: "", convencion_t: "", convencion_n: "" }, fecha: "", dias: 0, observaciones: "" },
+];
+
+// Datos base para la tabla de procedimientos
+export const PROCEDIMIENTOS_BASE = [
+  { tipo: "EKG", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "ecocardiograma", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "ecografia", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "TAC", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "RNM", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "rayos x", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "examenes laboratorio", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "baño", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "cuidado ocular", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "cambios posicion y masaje", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "curacion", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "lavado gastrico", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "reanimacion CCP", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "via oral", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "nutricion enteral", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "nutricion parenteral", registro_turno: { m: false, t: false, n: false } },
+  { tipo: "higiene oral", registro_turno: { m: false, t: false, n: false } },
+];
+
+// Datos base para la tabla de glucometrías (formato de 24 horas)
+export const GLUCOMETRIAS_BASE = [
+  { hora: "06:00", valor: "", observacion: "" },
+  { hora: "08:00", valor: "", observacion: "" },
+  { hora: "10:00", valor: "", observacion: "" },
+  { hora: "12:00", valor: "", observacion: "" },
+  { hora: "14:00", valor: "", observacion: "" },
+  { hora: "16:00", valor: "", observacion: "" },
+  { hora: "18:00", valor: "", observacion: "" },
+  { hora: "20:00", valor: "", observacion: "" },
+  { hora: "22:00", valor: "", observacion: "" },
+  { hora: "00:00", valor: "", observacion: "" },
+  { hora: "02:00", valor: "", observacion: "" },
+  { hora: "04:00", valor: "", observacion: "" },
+];

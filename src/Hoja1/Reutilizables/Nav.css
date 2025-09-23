@@ -1,0 +1,57 @@
+/*
+ * -----------------------------------------------------------------------------
+ * ESTILOS DE NAVEGACIÓN (REDONDEADOS Y AZULES)
+ * -----------------------------------------------------------------------------
+ */
+
+.button-container-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los botones en el contenedor */
+    align-items: center;
+    gap: 15px; /* Aumenta el espacio entre los botones */
+    padding: 1.5rem 0; /* Aumenta el relleno vertical */
+    background-color: var(--soft-blue);
+    border-top: 1px solid var(--light-blue);
+    border-bottom: 1px solid var(--light-blue);
+    margin-bottom: 2rem;
+}
+
+.button-container-nav .btn-nav {
+    padding: 1rem 1.75rem; /* Aumenta el relleno para que el botón sea más grande */
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid var(--primary-blue);
+    border-radius: 50px; /* **Redondea los bordes para crear un efecto de píldora** */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: var(--primary-blue);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-container-nav .btn-nav:hover,
+.button-container-nav .btn-nav:focus {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    color: #fff;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(65, 105, 225, 0.3);
+}
+
+/* Estilo para el botón activo (seleccionado) */
+.button-container-nav .btn-nav.active {
+    background-color: var(--primary-blue); /* Fondo azul intenso */
+    border-color: var(--primary-blue);
+    color: #fff; /* Texto blanco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: none;
+}
+
+.button-container-nav .btn-nav.active:hover {
+    background-color: #3857bf; /* Un tono más oscuro para el hover en el activo */
+}

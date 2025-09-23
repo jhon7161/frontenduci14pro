@@ -1,0 +1,309 @@
+.datos-basicos-container {
+  margin-bottom: 20px;
+}
+
+.datos-basicos-row {
+  margin-bottom: 10px;
+}
+
+.datos-basicos-row label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.datos-basicos-input {
+  width: 100%;
+  padding: 5px;
+  font-weight: normal;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+***********
+.diagnosticos-container {
+  margin-top: 10px;
+}
+
+.diagnosticos-row {
+  display: grid;
+  grid-template-columns: 1fr 4fr 0.5fr;
+  gap: 0;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #007bff;
+  align-items: center;
+}
+
+.diagnosticos-row.header {
+  grid-template-columns: 1fr 3fr 0.5fr;
+}
+
+.diagnosticos-row input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background-color: #f8f8f8;
+  padding: 4px;
+}
+
+.diagnosticos-row button {
+  cursor: pointer;
+}
+
+.enfermero-jefe-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin-top: 5px;
+}
+
+.enfermero-jefe-col {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #007bff;
+}
+
+.enfermero-jefe-col label {
+  display: block;
+  font-weight: bold;
+}
+
+.enfermero-jefe-col input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background-color: #f8f8f8;
+  padding: 4px;
+}
+************
+.dosis-container {
+  margin-top: 20px;
+}
+
+.dosis-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.dosis-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 3fr 2fr 1.5fr 2fr 0.5fr;
+  gap: 0;
+  margin-top: 2px;
+  background-color: #ffffff;
+  padding: 8px;
+  border: 1px solid #007bff;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.dosis-grid.header {
+  margin-top: 0;
+}
+
+.dosis-grid input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background-color: #f8f8f8;
+  padding: 4px;
+}
+
+.dosis-grid button {
+  cursor: pointer;
+}
+****************
+.fechas-estancia-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.fechas-estancia-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+}
+
+.fechas-estancia-group label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.fechas-estancia-group input {
+  padding: 6px 8px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+********************************
+.laboratorios-estudios-container {
+  display: grid;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.laboratorios-estudios-header {
+  text-align: center;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 1px solid #007bff;
+  padding: 8px;
+}
+
+.laboratorios-estudios-row {
+  display: grid;
+  gap: 0px;
+}
+
+.laboratorios-estudios-celda {
+  background-color: #ffffff;
+  border: 1px solid #007bff;
+  padding: 8px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.laboratorios-estudios-celda label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.laboratorios-estudios-celda input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+*************************
+.medicamentos-horarios-container {
+  margin-top: 10px;
+}
+
+.medicamentos-horarios-header {
+  font-weight: bold;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #007bff;
+  padding: 8px;
+  color: #007bff;
+}
+
+.medicamentos-horarios-form,
+.medicamentos-horarios-table {
+  display: grid;
+  gap: 0px;
+  margin-top: 5px;
+  grid-template-columns: 50px 120px 2fr 1fr 1fr 80px 1fr 1fr 1fr;
+}
+
+.medicamentos-horarios-celda {
+  background-color: #ffffff;
+  border: 1px solid #007bff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.medicamentos-horarios-input {
+  border: none;
+  outline: none;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+
+.medicamentos-horarios-add {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.medicamentos-horarios-add button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+****************************************
+.medicamentos-infusion-container {
+  margin-top: 10px;
+}
+
+.medicamentos-infusion-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 0.5fr;
+  gap: 0px;
+  margin-bottom: 5px;
+}
+
+.medicamentos-infusion-celda {
+  background-color: #ffffff;
+  border: 1px solid #007bff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.medicamentos-infusion-input {
+  border: none;
+  outline: none;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+
+.medicamentos-infusion-celda.acciones {
+  text-align: center;
+}
+
+.medicamentos-infusion-celda.acciones button {
+  cursor: pointer;
+}
+********************************************
+.tipo-uci-container {
+    margin-bottom: 10px;
+}
+
+.tipo-uci-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0px;
+}
+
+.tipo-uci-cell {
+    background-color: #ffffff;
+    padding: 8px;
+    font-weight: bold;
+    border: 1px solid #007bff;
+    margin: 0;
+}
+
+.tipo-uci-input {
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+}
+
+.tipo-uci-input.read-only {
+    background-color: #f8f8f8;
+}
+
+.tipo-uci-input.clickable {
+    cursor: pointer;
+    background-color: #f0f8ff;
+}

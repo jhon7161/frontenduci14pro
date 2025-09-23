@@ -1,0 +1,368 @@
+/* ----------------------------------------------------------------------------- */
+/* VARIABLES DE COLOR (Asumidas de la Hoja1) */
+/* ----------------------------------------------------------------------------- */
+:root {
+    --primary-blue: #4169e1;
+    --soft-blue: #e8f0fe;
+    --light-blue: #d6e0f2;
+    --text-color: #333;
+    --border-color: #ccc;
+    --success-green: #28a745;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ESTILOS GLOBALES DE LA PÁGINA */
+/* ----------------------------------------------------------------------------- */
+.hoja4-container {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 40px;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--text-color);
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+.header-title.center {
+    color: var(--primary-blue);
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--primary-blue);
+    display: inline-block;
+    padding-bottom: 8px;
+    letter-spacing: 0.5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+/* Tablas principales */
+.hoja4-table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.hoja4-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+.hoja4-table thead th {
+    background-color: var(--soft-blue);
+    border: 1px solid var(--primary-blue);
+    color: var(--primary-blue);
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.hoja4-table tbody td {
+    border: 1px solid var(--light-blue);
+    padding: 10px;
+    text-align: center;
+}
+
+.hoja4-table tbody tr:nth-child(even) {
+    background-color: var(--soft-blue);
+}
+
+/* Inputs de la tabla */
+.hoja4-table input[type="text"] {
+    width: 70px;
+    padding: 0.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hoja4-table input[type="text"]:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.2);
+}
+
+/* Botón de guardar */
+.button {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn--success {
+    background-color: var(--success-green);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn--success:hover {
+    background-color: #218838;
+}
+
+---
+
+### Estilos para Braden y UPP
+
+Aquí están los estilos específicos para la sección Braden. Se ha consolidado el diseño del contenedor, las filas y los inputs para que coincidan con la apariencia de la **hoja1**.
+
+```css
+/* ----------------------------------------------------------------------------- */
+/* SECCIÓN BRADEN Y UPP */
+/* ----------------------------------------------------------------------------- */
+
+/* Contenedor principal de Braden y UPP */
+.braden-upp-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+    width: 95%;
+    justify-content: center;
+}
+
+/* Contenedor de la Escala de Braden */
+.braden-container {
+    flex: 1 1 60%;
+    min-width: 450px;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.braden-container h3 {
+    text-align: center;
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+}
+
+/* Estilo de las filas de opciones de Braden */
+.braden-condiciones-fila,
+.braden-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--light-blue);
+    padding: 10px 0;
+}
+
+.braden-condiciones-fila {
+    font-weight: bold;
+    color: var(--primary-blue);
+    border-bottom: 2px solid var(--primary-blue);
+    margin-bottom: 15px;
+}
+
+.braden-condiciones-fila span {
+    font-size: 1.1rem;
+}
+
+.condiciones-numeros {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.braden-row:hover {
+    background-color: var(--soft-blue);
+}
+
+.braden-row span {
+    font-weight: bold;
+    flex-basis: 150px;
+}
+
+.braden-row label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.braden-total {
+    margin-top: 15px;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    color: #00695c;
+}
+
+/* Contenedor de Clasificación y UPP */
+.clasificacion-upp-container {
+    flex: 1 1 35%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos de la tabla de clasificación y UPP */
+/* ----------------------------------------------------------------------------- */
+/* SECCIÓN BRADEN Y UPP */
+/* ----------------------------------------------------------------------------- */
+
+/* Contenedor principal de Braden y UPP */
+.braden-upp-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+    width: 95%;
+    justify-content: center;
+}
+
+/* Contenedor de la Escala de Braden */
+.braden-container {
+    flex: 1 1 60%;
+    min-width: 450px;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.braden-container h3 {
+    text-align: center;
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+}
+
+/* Estilo para las filas de la tabla de Braden usando CSS Grid */
+.braden-condiciones-fila,
+.braden-row {
+    display: grid;
+    grid-template-columns: 180px repeat(4, 1fr); /* 180px para el título, 4 columnas de igual ancho para las opciones */
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid var(--light-blue);
+    padding: 10px 0;
+}
+
+.braden-condiciones-fila {
+    font-weight: bold;
+    color: var(--primary-blue);
+    border-bottom: 2px solid var(--primary-blue);
+    margin-bottom: 15px;
+}
+
+.braden-condiciones-fila span {
+    font-size: 1.1rem;
+}
+
+.braden-row:hover {
+    background-color: var(--soft-blue);
+}
+
+.braden-row span {
+    font-weight: bold;
+}
+
+.braden-row label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.braden-total {
+    margin-top: 15px;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    color: #00695c;
+}
+
+/* Contenedor de Clasificación y UPP */
+.clasificacion-upp-container {
+    flex: 1 1 35%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos de la tabla de clasificación y UPP */
+.braden-clasificacion-container,
+.upp-container {
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.braden-clasificacion-container h3,
+.upp-container h3 {
+    text-align: center;
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+}
+
+.braden-clasificacion-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.braden-clasificacion-container th,
+.braden-clasificacion-container td {
+    border: 1px solid var(--light-blue);
+    padding: 12px;
+    text-align: center;
+}
+
+.braden-clasificacion-container th {
+    background-color: var(--soft-blue);
+    color: var(--primary-blue);
+}
+
+.upp-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.upp-row label {
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+.upp-row input[type="text"] {
+    width: 120px;
+    padding: 8px 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Responsive Design */
+/* ----------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .braden-upp-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,7128 @@
+{
+  "pacientes": [
+    {
+      "nombre": "jhon",
+      "apellido": "botero",
+      "edad": "37 años",
+      "sc": "1.97",
+      "tiss": "7",
+      "historiaClinica": "1122647161",
+      "sexo": "Masculino",
+      "apache": "2",
+      "tipoUCI": "UCIA",
+      "peso": "80",
+      "talla": "177",
+      "eps": "famisanar",
+      "cama": "1",
+      "fechaIngreso": "2025-08-10",
+      "fechaActual": "2025-08-10",
+      "diasEstancia": "0",
+      "diagnosticos": [
+        "flojera",
+        "pereza"
+      ],
+      "problemas": [
+        "ansioso"
+      ],
+      "enfermeroJefe": {
+        "manana": "camila",
+        "tarde": "juan",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "jhon",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "2",
+      "hto": "2",
+      "leuc": "2",
+      "neut": "2",
+      "linf": "22",
+      "cay": "2",
+      "plaq": "2",
+      "bun": "2",
+      "creat": "2",
+      "glicemia": "2",
+      "na": "2",
+      "k": "22",
+      "cl": "2",
+      "ca": "2",
+      "mg": "2",
+      "pt": "2",
+      "ptt": "2",
+      "inr": "2",
+      "rx": "21/07/2025",
+      "cultivos": "positivos",
+      "hemo": "negativos",
+      "uro": "negativos",
+      "ekg": "22/05/2025",
+      "pdeo": "",
+      "medicamentosInfusion": [
+        {
+          "nombre": "acetaminofen",
+          "dosis": "500mg"
+        }
+      ],
+      "medicamentosHorarios": [
+        {
+          "fechaInicio": "2025-08-10",
+          "nombre": "enalapril",
+          "horas": "12-18-24-06",
+          "dosis": "20mg",
+          "via": "oral",
+          "manana": "yamile",
+          "tarde": "",
+          "noche": ""
+        }
+      ],
+      "dosisUnica": [
+        {
+          "hora": "18:00",
+          "nombre": "insulina",
+          "dosis": "8unidades",
+          "via": "sc",
+          "ordenadoPor": "mateo",
+          "hospitalariamente": "si"
+        }
+      ],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "noradrenalina",
+            "dosis": [
+              "2",
+              "2",
+              "2",
+              "2",
+              "2",
+              "2",
+              "2",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "ssn",
+            "dosis": [
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "50",
+            "40",
+            "40",
+            "40",
+            "50",
+            "60",
+            "30",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "nefro",
+              "valores": [
+                "50",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "40",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "hoja3": {
+        "datos": [
+          {
+            "FC": "80",
+            "TAS": "130",
+            "TAD": "70",
+            "TAM": "90",
+            "FR": "20",
+            "SAT": "97",
+            "TEMP": "36",
+            "PVC": "0",
+            "GC": "123",
+            "VRS": "123",
+            "IC": "123",
+            "IRVS": "12345",
+            "SCVO2": "12354"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": "",
+      "hoja5": "",
+      "hoja6": "",
+      "id": "9e19"
+    },
+    {
+      "id": "7e28",
+      "nombre": "maria",
+      "apellido": "almanza",
+      "edad": "",
+      "sc": "",
+      "tiss": "",
+      "historiaClinica": "40388369",
+      "sexo": "",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "",
+      "talla": "",
+      "eps": "",
+      "cama": "",
+      "fechaIngreso": "",
+      "fechaActual": "2025-08-14",
+      "diasEstancia": "",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": []
+    },
+    {
+      "id": "85c1",
+      "nombre": "",
+      "apellido": "",
+      "edad": "",
+      "sc": "",
+      "tiss": "",
+      "historiaClinica": "1122647161",
+      "sexo": "",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "",
+      "talla": "",
+      "eps": "",
+      "cama": "",
+      "fechaIngreso": "",
+      "fechaActual": "2025-08-20",
+      "diasEstancia": "",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": [],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "hoja3": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja5": "",
+      "hoja6": ""
+    },
+    {
+      "nombre": "jhon",
+      "apellido": "botero",
+      "edad": "37 años",
+      "sc": "1.97",
+      "tiss": "",
+      "historiaClinica": "1122647161",
+      "sexo": "Masculino",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "80",
+      "talla": "177",
+      "eps": "famisanar",
+      "cama": "1",
+      "fechaIngreso": "2025-08-10",
+      "fechaActual": "2025-08-23",
+      "diasEstancia": "13",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "jhon",
+        "tarde": "edinson",
+        "noche": ""
+      },
+      "hb": "7",
+      "hto": "7",
+      "leuc": "7",
+      "neut": "7",
+      "linf": "7",
+      "cay": "7",
+      "plaq": "7",
+      "bun": "77",
+      "creat": "7",
+      "glicemia": "7",
+      "na": "7",
+      "k": "7",
+      "cl": "7",
+      "ca": "7",
+      "mg": "7",
+      "pt": "7",
+      "ptt": "77",
+      "inr": "7",
+      "rx": "7",
+      "cultivos": "7",
+      "hemo": "7",
+      "uro": "7",
+      "ekg": "7",
+      "pdeo": "7",
+      "medicamentosInfusion": [
+        {
+          "nombre": "noradrenalina",
+          "dosis": "4 amp en 125dad al 5%"
+        }
+      ],
+      "medicamentosHorarios": [
+        {
+          "fechaInicio": "2025-08-08",
+          "nombre": "acetaminofrn",
+          "horas": "12-18-24-6",
+          "dosis": "500mg",
+          "via": "oral",
+          "manana": "juan",
+          "tarde": "",
+          "noche": ""
+        }
+      ],
+      "dosisUnica": [
+        {
+          "hora": "06:00",
+          "nombre": "insulina",
+          "dosis": "10ui",
+          "via": "sc",
+          "ordenadoPor": "jhon",
+          "hospitalariamente": "si"
+        }
+      ],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "ssn",
+            "dosis": [
+              "20",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "nora",
+            "dosis": [
+              "5",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "100",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "insumos": [
+          {
+            "nombre": "XL 5000",
+            "M": 1,
+            "T": 0,
+            "N": 0
+          },
+          {
+            "nombre": "Buretrol SSN 0.9%",
+            "M": 0,
+            "T": 1,
+            "N": 0
+          },
+          {
+            "nombre": "Lactato de Ringer",
+            "M": 0,
+            "T": 0,
+            "N": 1
+          },
+          {
+            "nombre": "sonda vesical",
+            "M": 1,
+            "T": 0,
+            "N": 0
+          }
+        ]
+      },
+      "hoja3": {
+        "datos": [
+          {
+            "FC": "60",
+            "TAS": "130",
+            "TAD": "80",
+            "TAM": "90",
+            "FR": "20",
+            "SAT": "97",
+            "TEMP": "36",
+            "PVC": "2"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {
+            "rass": "0",
+            "total": "15/15",
+            "pupilaOD": "2",
+            "pupilaOI": "2",
+            "reaccionOD": "R",
+            "reaccionOI": "R",
+            "conciencia": "A",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "P",
+            "convulsiones": "No",
+            "ao": "4",
+            "rv": "5",
+            "rm": "6"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "braden": {
+          "respuestas": {
+            "percepcion": 1,
+            "humedad": 2,
+            "actividad": 3,
+            "movilidad": 4,
+            "nutricion": 3,
+            "friccion": 4
+          },
+          "upp": [
+            {
+              "derecha": "cvb",
+              "izquierda": "cvb"
+            },
+            {
+              "derecha": "cvb",
+              "izquierda": "cvb"
+            },
+            {
+              "derecha": "cvb",
+              "izquierda": "cvb"
+            }
+          ],
+          "observaciones": "cvbcvbcvbcvb"
+        }
+      },
+      "hoja5": {
+        "invasivos": [
+          [
+            "cateter central",
+            "EKG"
+          ],
+          [
+            "cateter central",
+            ""
+          ],
+          [
+            "cateter mahurkar",
+            "ecocardiograma"
+          ],
+          [
+            "cateter swan-ganz",
+            "ecografia"
+          ],
+          [
+            "embolizacion de aneurisma",
+            "TAC"
+          ],
+          [
+            "cateter arterial",
+            "RNM"
+          ],
+          [
+            "cateter PIC",
+            "rayos x"
+          ],
+          [
+            "cateter drum",
+            "examenes laboratorio"
+          ],
+          [
+            "venopunsion",
+            "baño"
+          ],
+          [
+            "sonda vesical",
+            "cuidado ocular"
+          ],
+          [
+            "introductor de marcapaso transv",
+            "cambios posicion y masaje"
+          ],
+          [
+            "marcapaso trasvenoso",
+            "curacion"
+          ],
+          [
+            "marcapaso epicardico",
+            "lavado gastrico"
+          ],
+          [
+            "marcapaso trascutaneo",
+            "reanimacion CCP"
+          ],
+          [
+            "colostomia",
+            "via oral"
+          ],
+          [
+            "sonda punta tungsteno",
+            "nutricion enteral"
+          ],
+          [
+            "cateterismo cardiaco",
+            "nutricion parenteral"
+          ],
+          [
+            "tubo a torax",
+            "higiene oral"
+          ],
+          [
+            "tubo mediastinal",
+            ""
+          ],
+          [
+            "traqueostomia",
+            ""
+          ],
+          [
+            "intubacion orotraqueal",
+            ""
+          ],
+          [
+            "herida quirurgica",
+            ""
+          ],
+          [
+            "gastrostomia",
+            ""
+          ],
+          [
+            "cateter CAPD",
+            ""
+          ],
+          [
+            "cateter ventriculostomia",
+            ""
+          ],
+          [
+            "cateter multiproposito",
+            ""
+          ],
+          [
+            "drenaje hemovac",
+            ""
+          ],
+          [
+            "teraopia VAC",
+            ""
+          ],
+          [
+            "cateter PIA",
+            ""
+          ],
+          [
+            "OTRO",
+            ""
+          ]
+        ],
+        "extraData": [
+          {
+            "sitio": "sc",
+            "fecha": "",
+            "dias": "",
+            "observacion": "ninguna",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "↑",
+              "T": "→",
+              "N": "▲"
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "lo hizo un aux",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": true,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": true,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": true,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          }
+        ],
+        "glucometrias": [
+          {
+            "hora": "06:00",
+            "valor": "100",
+            "insulina": "10"
+          },
+          {
+            "hora": "08:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "10:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "12:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "14:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "16:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "18:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "20:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "22:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "00:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "02:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "04:00",
+            "valor": "",
+            "insulina": ""
+          }
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {
+            "MODO": "1",
+            "FR TTL": "2",
+            "FR VENT": "3",
+            "FIO2": "4",
+            "PEEP": "5"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "gases": [
+          {
+            "Hora": "6:00",
+            "ART": "",
+            "VEN": "1",
+            "YUG": "1",
+            "PH": "1",
+            "PCO2": "1",
+            "PO2": "1",
+            "BTO": "1",
+            "DB": "1",
+            "SAT": "1",
+            "H+": "1",
+            "CSO2": "1",
+            "PAO/FIO2": "1",
+            "QS/QT": "1",
+            "DavO2": "1",
+            "REO2": "1",
+            "IDO2": "1",
+            "IVO2": ""
+          },
+          {
+            "Hora": "1",
+            "ART": "1",
+            "VEN": "1",
+            "YUG": "1",
+            "PH": "1",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "1",
+            "PH": "1",
+            "PCO2": "|1",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          }
+        ],
+        "neumonia": {
+          "NN": "dfgdfgdfg",
+          "NAC": "dfgdfgdfg",
+          "NAN": "dfgdfgdfg",
+          "NBA": "dfgdfgdfg",
+          "DIAS_VM": "dfgdfg",
+          "NAC_TR": "dfgdfg",
+          "NAN_TR": "dfgdfg",
+          "NBA_TR": "dfgdfg"
+        },
+        "terapeuta": "qqqqqqqqqqqqqqqq"
+      },
+      "id": "842a",
+      "hojaPosiciones": {
+        "selecciones": {
+          "DLI-6": true,
+          "DLD-8": true,
+          "Sedente-12": true,
+          "Prono-16": true,
+          "Sedente-2": true,
+          "Sedente-22": true,
+          "DLI-AM": true,
+          "Prono-PM": true,
+          "MMSS-1x2": true,
+          "MMII-1x2": true,
+          "MMII-2x1": true
+        },
+        "observaciones": {
+          "MMSS": "1",
+          "MMII": "2"
+        },
+        "fisio": "444444"
+      }
+    },
+    {
+      "id": "af26",
+      "nombre": "jhon",
+      "apellido": "botero",
+      "edad": "37 años",
+      "sc": "1.97",
+      "tiss": "",
+      "historiaClinica": "1122647161",
+      "sexo": "Masculino",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "80",
+      "talla": "177",
+      "eps": "famisanar",
+      "fechaIngreso": "2025-08-10",
+      "fechaActual": "2025-08-23",
+      "diasEstancia": "13",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": [],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "hoja3": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja5": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {
+            "MODO": "1",
+            "FR TTL": "2",
+            "FR VENT": "3",
+            "FIO2": "4",
+            "PEEP": "5",
+            "VT": "6",
+            "VM": "7",
+            "PS": "8",
+            "PIM": "9",
+            "PPL": "10",
+            "PMA EDI": "11"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    {
+      "id": "93f7",
+      "nombre": "",
+      "apellido": "",
+      "edad": "",
+      "sc": "",
+      "tiss": "",
+      "historiaClinica": "1122647161",
+      "sexo": "",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "",
+      "talla": "",
+      "eps": "",
+      "cama": "",
+      "fechaIngreso": "",
+      "fechaActual": "2025-08-23",
+      "diasEstancia": "",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": [],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "hoja3": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja5": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    {
+      "nombre": "jhon",
+      "apellido": "botero",
+      "edad": "37 años",
+      "sc": "1.97",
+      "tiss": "",
+      "historiaClinica": "1122647161",
+      "sexo": "Masculino",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "80",
+      "talla": "177",
+      "eps": "famisanar",
+      "cama": "1",
+      "fechaIngreso": "2025-08-10",
+      "fechaActual": "2025-08-24",
+      "diasEstancia": "14",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": [],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "hoja3": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja5": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "id": "80a4"
+    },
+    {
+      "nombre": "maria",
+      "apellido": "almanza",
+      "edad": "",
+      "sc": "",
+      "tiss": "",
+      "historiaClinica": "40388369",
+      "sexo": "",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "",
+      "talla": "",
+      "eps": "",
+      "cama": "1",
+      "fechaIngreso": "",
+      "fechaActual": "2025-08-24",
+      "diasEstancia": "",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": [],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "hoja3": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja5": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "id": "6e74"
+    },
+    {
+      "id": "fa2e",
+      "nombre": "joselito",
+      "apellido": "",
+      "edad": "",
+      "sc": "",
+      "tiss": "",
+      "historiaClinica": "12345",
+      "sexo": "",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "",
+      "talla": "",
+      "eps": "",
+      "cama": "3",
+      "fechaIngreso": "",
+      "fechaActual": "2025-08-24",
+      "diasEstancia": "",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": [],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "hoja3": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja5": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    {
+      "id": "65e0",
+      "nombre": "jhon",
+      "apellido": "botero",
+      "edad": "37 años",
+      "sc": "1.97",
+      "tiss": "",
+      "historiaClinica": "1122647161",
+      "sexo": "Masculino",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "80",
+      "talla": "177",
+      "eps": "famisanar",
+      "cama": "1",
+      "fechaIngreso": "2025-08-10",
+      "fechaActual": "2025-08-25",
+      "diasEstancia": "15",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": [],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "hoja3": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja5": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "edad": "",
+      "sc": "",
+      "tiss": "",
+      "historiaClinica": "1234",
+      "sexo": "",
+      "apache": "",
+      "tipoUCI": "",
+      "peso": "",
+      "talla": "",
+      "eps": "",
+      "cama": "1",
+      "fechaIngreso": "",
+      "fechaActual": "2025-08-29",
+      "diasEstancia": "",
+      "diagnosticos": [],
+      "problemas": "",
+      "enfermeroJefe": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "auxiliarEnfermeria": {
+        "manana": "",
+        "tarde": "",
+        "noche": ""
+      },
+      "hb": "",
+      "hto": "",
+      "leuc": "",
+      "neut": "",
+      "linf": "",
+      "cay": "",
+      "plaq": "",
+      "bun": "",
+      "creat": "",
+      "glicemia": "",
+      "na": "",
+      "k": "",
+      "cl": "",
+      "ca": "",
+      "mg": "",
+      "pt": "",
+      "ptt": "",
+      "inr": "",
+      "rx": "",
+      "cultivos": "",
+      "hemo": "",
+      "uro": "",
+      "ekg": "",
+      "pdeo": "",
+      "medicamentosInfusion": [],
+      "medicamentosHorarios": [],
+      "dosisUnica": [],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "nombre": "",
+            "dosis": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "otros": [
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "nombre": "",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "insumos": [
+          {
+            "nombre": "XL 5000",
+            "M": 1,
+            "T": 0,
+            "N": 3
+          },
+          {
+            "nombre": "Buretrol SSN 0.9%",
+            "M": 0,
+            "T": 0,
+            "N": 0
+          },
+          {
+            "nombre": "Lactato de Ringer",
+            "M": 0,
+            "T": 0,
+            "N": 0
+          }
+        ]
+      },
+      "hoja3": {
+        "datos": [
+          {
+            "FC": "68",
+            "TAS": "100",
+            "TAD": "60",
+            "TAM": "70",
+            "FR": "19",
+            "SAT": "98",
+            "TEMP": "36",
+            "PVC": "4"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {
+            "rass": "-3",
+            "total": "10/15",
+            "pupilaOD": "3",
+            "pupilaOI": "3",
+            "reaccionOD": "H",
+            "reaccionOI": "H",
+            "conciencia": "S",
+            "fuerzaDer": "D",
+            "fuerzaIzq": "D",
+            "convulsiones": "No",
+            "ao": "3",
+            "rv": "3",
+            "rm": "4"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "braden": {
+          "respuestas": {
+            "percepcion": 1,
+            "humedad": 2,
+            "actividad": 2,
+            "movilidad": 3,
+            "nutricion": 3,
+            "friccion": 3
+          },
+          "upp": [
+            {
+              "derecha": "",
+              "izquierda": ""
+            },
+            {
+              "derecha": "",
+              "izquierda": ""
+            },
+            {
+              "derecha": "",
+              "izquierda": ""
+            }
+          ],
+          "observaciones": ""
+        }
+      },
+      "hoja5": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "extraData": [
+          {
+            "sitio": "",
+            "fecha": "2025-08-08",
+            "dias": 21,
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": true,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "→",
+              "T": "▲",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": true,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": true
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": true
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          }
+        ],
+        "invasivos": [
+          [
+            "cateter central",
+            "EKG"
+          ],
+          [
+            "cateter central",
+            ""
+          ],
+          [
+            "cateter mahurkar",
+            "ecocardiograma"
+          ],
+          [
+            "cateter swan-ganz",
+            "ecografia"
+          ],
+          [
+            "embolizacion de aneurisma",
+            "TAC"
+          ],
+          [
+            "cateter arterial",
+            "RNM"
+          ],
+          [
+            "cateter PIC",
+            "rayos x"
+          ],
+          [
+            "cateter drum",
+            "examenes laboratorio"
+          ],
+          [
+            "venopunsion",
+            "baño"
+          ],
+          [
+            "sonda vesical",
+            "cuidado ocular"
+          ],
+          [
+            "introductor de marcapaso transv",
+            "cambios posicion y masaje"
+          ],
+          [
+            "marcapaso trasvenoso",
+            "curacion"
+          ],
+          [
+            "marcapaso epicardico",
+            "lavado gastrico"
+          ],
+          [
+            "marcapaso trascutaneo",
+            "reanimacion CCP"
+          ],
+          [
+            "colostomia",
+            "via oral"
+          ],
+          [
+            "sonda punta tungsteno",
+            "nutricion enteral"
+          ],
+          [
+            "cateterismo cardiaco",
+            "nutricion parenteral"
+          ],
+          [
+            "tubo a torax",
+            "higiene oral"
+          ],
+          [
+            "tubo mediastinal",
+            ""
+          ],
+          [
+            "traqueostomia",
+            ""
+          ],
+          [
+            "intubacion orotraqueal",
+            ""
+          ],
+          [
+            "herida quirurgica",
+            ""
+          ],
+          [
+            "gastrostomia",
+            ""
+          ],
+          [
+            "cateter CAPD",
+            ""
+          ],
+          [
+            "cateter ventriculostomia",
+            ""
+          ],
+          [
+            "cateter multiproposito",
+            ""
+          ],
+          [
+            "drenaje hemovac",
+            ""
+          ],
+          [
+            "teraopia VAC",
+            ""
+          ],
+          [
+            "cateter PIA",
+            ""
+          ],
+          [
+            "OTRO",
+            ""
+          ]
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "gases": [
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          }
+        ],
+        "neumonia": {
+          "NN": "",
+          "NAC": "",
+          "NAC_TR": "",
+          "NAN": "",
+          "NAN_TR": "",
+          "NBA": "",
+          "NBA_TR": "",
+          "DIAS_VM": ""
+        },
+        "terapeuta": ""
+      },
+      "id": "e5e0",
+      "hojaPosiciones": {
+        "selecciones": {
+          "Sedente-6": true,
+          "DLD-8": true,
+          "DLI-10": true,
+          "Sedente-12": true,
+          "DLD-PM": true,
+          "MMSS-2x1": true
+        },
+        "observaciones": {},
+        "fisio": "karol"
+      }
+    },
+    {
+      "nombre": "jhon",
+      "apellido": "botero",
+      "edad": "37 años",
+      "sc": "1.97",
+      "tiss": "7",
+      "historiaClinica": "1122647161",
+      "sexo": "Masculino",
+      "apache": "2",
+      "tipoUCI": "UCIA",
+      "peso": "80",
+      "talla": "177",
+      "eps": "famisanar",
+      "cama": "1",
+      "fechaIngreso": "2025-08-10",
+      "fechaActual": "2025-08-30",
+      "diasEstancia": "20",
+      "diagnosticos": [],
+      "problemas": [
+        "obesidad"
+      ],
+      "enfermeroJefe": {
+        "manana": "angie",
+        "tarde": "paula",
+        "noche": "jorge"
+      },
+      "auxiliarEnfermeria": {
+        "manana": "jhon",
+        "tarde": "edinson",
+        "noche": "alejandro"
+      },
+      "hb": "21",
+      "hto": "12",
+      "leuc": "21",
+      "neut": "21",
+      "linf": "12",
+      "cay": "21",
+      "plaq": "21",
+      "bun": "21",
+      "creat": "2121",
+      "glicemia": "90",
+      "na": "12",
+      "k": "21",
+      "cl": "12",
+      "ca": "12",
+      "mg": "21",
+      "pt": "21",
+      "ptt": "21",
+      "inr": "21",
+      "rx": "21/07/2025",
+      "cultivos": "positivos",
+      "hemo": "negativos",
+      "uro": "negativos",
+      "ekg": "22/05/2025",
+      "pdeo": "7",
+      "medicamentosInfusion": [
+        {
+          "nombre": "noradrenalina",
+          "dosis": "4 amp en 125 dad 5%"
+        }
+      ],
+      "medicamentosHorarios": [
+        {
+          "fechaInicio": "2025-08-29",
+          "nombre": "acetaminofen",
+          "horas": "12-18-24-6",
+          "dosis": "500mg",
+          "via": "oral",
+          "manana": "juan",
+          "tarde": "carlos",
+          "noche": "jesica"
+        }
+      ],
+      "dosisUnica": [
+        {
+          "hora": "18:00",
+          "nombre": "insulina",
+          "dosis": "6 unidades",
+          "via": "sc",
+          "ordenadoPor": "camila",
+          "hospitalariamente": "si"
+        }
+      ],
+      "hoja2": {
+        "administrados": [
+          {
+            "nombre": "ssn",
+            "dosis": [
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50",
+              "50"
+            ]
+          },
+          {
+            "nombre": "potasio",
+            "dosis": [
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          {
+            "nombre": "dad 10%",
+            "dosis": [
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20"
+            ]
+          },
+          {
+            "nombre": "tazocin",
+            "dosis": [
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        ],
+        "eliminados": {
+          "diuresisHora": [
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ],
+          "otros": [
+            {
+              "nombre": "nefro",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "100",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "200",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "400"
+              ]
+            },
+            {
+              "nombre": "tubo a torax",
+              "valores": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "500"
+              ]
+            }
+          ]
+        },
+        "insumos": [
+          {
+            "nombre": "XL 5000",
+            "M": 1,
+            "T": 1,
+            "N": 1
+          },
+          {
+            "nombre": "Buretrol SSN 0.9%",
+            "M": 0,
+            "T": 0,
+            "N": 0
+          },
+          {
+            "nombre": "Lactato de Ringer",
+            "M": 0,
+            "T": 0,
+            "N": 0
+          }
+        ]
+      },
+      "hoja3": {
+        "datos": [
+          {
+            "FC": "78",
+            "TAS": "130",
+            "TAD": "70",
+            "TAM": "80",
+            "FR": "18",
+            "SAT": "98",
+            "TEMP": "36",
+            "PVC": "4",
+            "GC": "1",
+            "IC": "11",
+            "VVS": "1",
+            "IVS": "1",
+            "VS": "1",
+            "VRS": "1",
+            "IRVS": "1",
+            "SCVO2": "1",
+            "PCP": "11",
+            "TAMAP": "1"
+          },
+          {
+            "FC": "98",
+            "TAS": "128",
+            "TAD": "62",
+            "TAM": "87",
+            "FR": "19",
+            "SAT": "97",
+            "TEMP": "36",
+            "PVC": "3",
+            "GC": "0",
+            "IC": "00",
+            "VVS": "0",
+            "IVS": "0",
+            "VS": "0",
+            "VRS": "00",
+            "IRVS": "0",
+            "SCVO2": "0",
+            "PCP": "0",
+            "TAMAP": "0"
+          },
+          {
+            "FC": "87",
+            "TAS": "122",
+            "TAD": "64",
+            "TAM": "70",
+            "FR": "18",
+            "SAT": "98",
+            "TEMP": "36",
+            "PVC": "2",
+            "GC": "1",
+            "IC": "1",
+            "VVS": "1",
+            "IVS": "1",
+            "VS": "11",
+            "VRS": "1",
+            "IRVS": "1",
+            "SCVO2": "1",
+            "PCP": "1",
+            "TAMAP": "1"
+          },
+          {
+            "FC": "97",
+            "TAS": "123",
+            "TAD": "65",
+            "TAM": "68",
+            "FR": "17",
+            "SAT": "98",
+            "TEMP": "36",
+            "PVC": "1",
+            "GC": "1",
+            "IC": "11",
+            "VVS": "1",
+            "IVS": "1",
+            "VS": "1",
+            "VRS": "1",
+            "IRVS": "1",
+            "SCVO2": "1",
+            "PCP": "11",
+            "TAMAP": "1"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "hoja4": {
+        "datos": [
+          {
+            "rass": "0",
+            "total": "15/15",
+            "pupilaOD": "2",
+            "pupilaOI": "2",
+            "reaccionOD": "H",
+            "reaccionOI": "H",
+            "conciencia": "A",
+            "fuerzaDer": "D",
+            "fuerzaIzq": "P",
+            "convulsiones": "No",
+            "ao": "4",
+            "rv": "5",
+            "rm": "6"
+          },
+          {
+            "rass": "0",
+            "total": "13/15",
+            "pupilaOD": "2",
+            "pupilaOI": "2",
+            "reaccionOD": "H",
+            "reaccionOI": "R",
+            "conciencia": "A",
+            "fuerzaDer": "A",
+            "fuerzaIzq": "D",
+            "convulsiones": "Sí",
+            "ao": "4",
+            "rv": "4",
+            "rm": "5"
+          },
+          {
+            "rass": "-1",
+            "total": "12/15",
+            "pupilaOI": "2",
+            "pupilaOD": "2",
+            "reaccionOD": "R",
+            "reaccionOI": "R",
+            "conciencia": "A",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "P",
+            "convulsiones": "Sí",
+            "ao": "4",
+            "rv": "4",
+            "rm": "4"
+          },
+          {
+            "rass": "-1",
+            "total": "15/15",
+            "pupilaOI": "2",
+            "pupilaOD": "2",
+            "reaccionOD": "H",
+            "reaccionOI": "H",
+            "conciencia": "A",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "P",
+            "convulsiones": "No",
+            "ao": "4",
+            "rv": "5",
+            "rm": "6"
+          },
+          {
+            "rass": "-1",
+            "total": "12/15",
+            "pupilaOD": "3",
+            "pupilaOI": "3",
+            "reaccionOD": "H",
+            "reaccionOI": "H",
+            "conciencia": "A",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "D",
+            "convulsiones": "No",
+            "ao": "3",
+            "rv": "4",
+            "rm": "5"
+          },
+          {
+            "rass": "0",
+            "total": "9/15",
+            "pupilaOD": "3",
+            "pupilaOI": "3",
+            "reaccionOD": "H",
+            "reaccionOI": "H",
+            "conciencia": "S",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "P",
+            "convulsiones": "No",
+            "ao": "3",
+            "rv": "3",
+            "rm": "3"
+          },
+          {
+            "rass": "0",
+            "total": "15/15",
+            "pupilaOD": "2",
+            "pupilaOI": "2",
+            "reaccionOD": "R",
+            "reaccionOI": "R",
+            "conciencia": "S",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "P",
+            "convulsiones": "No",
+            "ao": "4",
+            "rv": "5",
+            "rm": "6"
+          },
+          {
+            "rass": "1",
+            "total": "7/15",
+            "pupilaOD": "2",
+            "pupilaOI": "2",
+            "reaccionOD": "F",
+            "reaccionOI": "F",
+            "conciencia": "S",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "D",
+            "convulsiones": "No",
+            "ao": "2",
+            "rv": "2",
+            "rm": "3"
+          },
+          {
+            "rass": "2",
+            "total": "7/15",
+            "pupilaOD": "1",
+            "pupilaOI": "1",
+            "reaccionOD": "R",
+            "reaccionOI": "R",
+            "conciencia": "S",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "D",
+            "convulsiones": "No",
+            "ao": "1",
+            "rv": "3",
+            "rm": "3"
+          },
+          {
+            "rass": "1",
+            "total": "9/15",
+            "pupilaOD": "3",
+            "pupilaOI": "3",
+            "reaccionOD": "R",
+            "reaccionOI": "R",
+            "conciencia": "S",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "P",
+            "convulsiones": "No",
+            "ao": "2",
+            "rv": "4",
+            "rm": "3"
+          },
+          {
+            "rass": "0",
+            "total": "3/15",
+            "pupilaOD": "4",
+            "pupilaOI": "4",
+            "reaccionOD": "R",
+            "reaccionOI": "R",
+            "conciencia": "S",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "P",
+            "convulsiones": "No",
+            "ao": "1",
+            "rv": "1",
+            "rm": "1"
+          },
+          {
+            "conciencia": "S",
+            "total": "",
+            "fuerzaDer": "P",
+            "fuerzaIzq": "P",
+            "convulsiones": "No"
+          },
+          {
+            "fuerzaDer": "P",
+            "total": "",
+            "fuerzaIzq": "P"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "braden": {
+          "respuestas": {
+            "percepcion": 1,
+            "humedad": 2,
+            "actividad": 1,
+            "movilidad": 2,
+            "nutricion": 2,
+            "friccion": 2
+          },
+          "upp": [
+            {
+              "derecha": "",
+              "izquierda": ""
+            },
+            {
+              "derecha": "",
+              "izquierda": ""
+            },
+            {
+              "derecha": "",
+              "izquierda": ""
+            }
+          ],
+          "observaciones": "sin upp"
+        }
+      },
+      "hoja5": {
+        "datos": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "extraData": [
+          {
+            "sitio": "sd",
+            "fecha": "2025-08-29",
+            "dias": 1,
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "↑",
+              "T": "→",
+              "N": "▲"
+            }
+          },
+          {
+            "sitio": "si",
+            "fecha": "2025-08-28",
+            "dias": 2,
+            "observacion": "se cambia por fiebre",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "↑",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          },
+          {
+            "sitio": "",
+            "fecha": "",
+            "dias": "",
+            "observacion": "",
+            "procedimientosTexto": "",
+            "procedimientos": {
+              "M": false,
+              "T": false,
+              "N": false
+            },
+            "convenciones": {
+              "M": "",
+              "T": "",
+              "N": ""
+            }
+          }
+        ],
+        "invasivos": [
+          [
+            "cateter central",
+            "EKG"
+          ],
+          [
+            "cateter central",
+            ""
+          ],
+          [
+            "cateter mahurkar",
+            "ecocardiograma"
+          ],
+          [
+            "cateter swan-ganz",
+            "ecografia"
+          ],
+          [
+            "embolizacion de aneurisma",
+            "TAC"
+          ],
+          [
+            "cateter arterial",
+            "RNM"
+          ],
+          [
+            "cateter PIC",
+            "rayos x"
+          ],
+          [
+            "cateter drum",
+            "examenes laboratorio"
+          ],
+          [
+            "venopunsion",
+            "baño"
+          ],
+          [
+            "sonda vesical",
+            "cuidado ocular"
+          ],
+          [
+            "introductor de marcapaso transv",
+            "cambios posicion y masaje"
+          ],
+          [
+            "marcapaso trasvenoso",
+            "curacion"
+          ],
+          [
+            "marcapaso epicardico",
+            "lavado gastrico"
+          ],
+          [
+            "marcapaso trascutaneo",
+            "reanimacion CCP"
+          ],
+          [
+            "colostomia",
+            "via oral"
+          ],
+          [
+            "sonda punta tungsteno",
+            "nutricion enteral"
+          ],
+          [
+            "cateterismo cardiaco",
+            "nutricion parenteral"
+          ],
+          [
+            "tubo a torax",
+            "higiene oral"
+          ],
+          [
+            "tubo mediastinal",
+            ""
+          ],
+          [
+            "traqueostomia",
+            ""
+          ],
+          [
+            "intubacion orotraqueal",
+            ""
+          ],
+          [
+            "herida quirurgica",
+            ""
+          ],
+          [
+            "gastrostomia",
+            ""
+          ],
+          [
+            "cateter CAPD",
+            ""
+          ],
+          [
+            "cateter ventriculostomia",
+            ""
+          ],
+          [
+            "cateter multiproposito",
+            ""
+          ],
+          [
+            "drenaje hemovac",
+            ""
+          ],
+          [
+            "teraopia VAC",
+            ""
+          ],
+          [
+            "cateter PIA",
+            ""
+          ],
+          [
+            "OTRO",
+            ""
+          ]
+        ],
+        "glucometrias": [
+          {
+            "hora": "06:00",
+            "valor": "200",
+            "insulina": "10"
+          },
+          {
+            "hora": "08:00",
+            "valor": "180",
+            "insulina": "5"
+          },
+          {
+            "hora": "10:00",
+            "valor": "400",
+            "insulina": "20"
+          },
+          {
+            "hora": "12:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "14:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "16:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "18:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "20:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "22:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "00:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "02:00",
+            "valor": "",
+            "insulina": ""
+          },
+          {
+            "hora": "04:00",
+            "valor": "",
+            "insulina": ""
+          }
+        ]
+      },
+      "hoja6": {
+        "datos": [
+          {
+            "MODO": "1",
+            "FR TTL": "1",
+            "FR VENT": "1",
+            "FIO2": "11",
+            "PEEP": "1",
+            "VT": "1",
+            "VM": "1",
+            "PS": "1",
+            "PIM": "1",
+            "PPL": "1",
+            "PMA EDI": "1",
+            "DISTENS": "1",
+            "PNO EUM": "1",
+            "DRIVING PRESS": "11",
+            "CANULA": "1",
+            "VENTURI": "1"
+          },
+          {
+            "MODO": "2",
+            "FR TTL": "2",
+            "FR VENT": "2",
+            "FIO2": "2",
+            "PEEP": "22",
+            "VT": "2",
+            "VM": "2",
+            "PS": "2",
+            "PIM": "2",
+            "PPL": "22",
+            "PMA EDI": "2",
+            "DISTENS": "2",
+            "PNO EUM": "2",
+            "DRIVING PRESS": "2",
+            "CANULA": "2",
+            "VENTURI": "2"
+          },
+          {
+            "MODO": "3",
+            "FR TTL": "3",
+            "FR VENT": "33",
+            "FIO2": "3",
+            "PEEP": "3",
+            "VT": "3",
+            "VM": "3",
+            "PS": "3",
+            "PIM": "3",
+            "PPL": "3",
+            "PMA EDI": "33",
+            "DISTENS": "3",
+            "PNO EUM": "3",
+            "DRIVING PRESS": "3",
+            "CANULA": "3",
+            "VENTURI": "3"
+          },
+          {
+            "MODO": "3",
+            "FR TTL": "44",
+            "FR VENT": "4",
+            "FIO2": "4",
+            "PEEP": "4",
+            "VT": "4",
+            "VM": "4",
+            "PS": "4",
+            "PIM": "44",
+            "PPL": "4",
+            "PMA EDI": "4",
+            "DISTENS": "4",
+            "PNO EUM": "4",
+            "DRIVING PRESS": "4",
+            "CANULA": "4",
+            "VENTURI": "44"
+          },
+          {
+            "FR TTL": "5",
+            "FR VENT": "5",
+            "FIO2": "55",
+            "PEEP": "5",
+            "VT": "5",
+            "VM": "5",
+            "PS": "5",
+            "PIM": "5",
+            "PPL": "5",
+            "PMA EDI": "55",
+            "DISTENS": "5",
+            "PNO EUM": "5",
+            "DRIVING PRESS": "5",
+            "CANULA": "5",
+            "VENTURI": "5"
+          },
+          {
+            "MODO": "5"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "gases": [
+          {
+            "Hora": "6:00",
+            "ART": "gases",
+            "VEN": "",
+            "YUG": "5",
+            "PH": "55",
+            "PCO2": "5",
+            "PO2": "5",
+            "BTO": "5",
+            "DB": "5",
+            "SAT": "5",
+            "H+": "55",
+            "CSO2": "5",
+            "PAO/FIO2": "5",
+            "QS/QT": "5",
+            "DavO2": "5",
+            "REO2": "5",
+            "IDO2": "5",
+            "IVO2": "55"
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          },
+          {
+            "Hora": "",
+            "ART": "",
+            "VEN": "",
+            "YUG": "",
+            "PH": "",
+            "PCO2": "",
+            "PO2": "",
+            "BTO": "",
+            "DB": "",
+            "SAT": "",
+            "H+": "",
+            "CSO2": "",
+            "PAO/FIO2": "",
+            "QS/QT": "",
+            "DavO2": "",
+            "REO2": "",
+            "IDO2": "",
+            "IVO2": ""
+          }
+        ],
+        "neumonia": {
+          "NN": "",
+          "NAC": "",
+          "NAC_TR": "",
+          "NAN": "",
+          "NAN_TR": "",
+          "NBA": "",
+          "NBA_TR": "",
+          "DIAS_VM": ""
+        },
+        "terapeuta": "ingri"
+      },
+      "id": "df6f",
+      "hojaPosiciones": {
+        "selecciones": {
+          "DLI-6": false,
+          "Sedente-6": true,
+          "DLD-8": true,
+          "DLI-10": true,
+          "DLD-12": true,
+          "Sedente-14": true,
+          "DLD-16": true,
+          "DLI-18": true,
+          "DLD-20": true,
+          "Sedente-22": true,
+          "DLD-24": true,
+          "DLI-2": true,
+          "DLD-4": true,
+          "MMSS-1x1": true,
+          "MMII-2x1": true
+        },
+        "observaciones": {},
+        "fisio": "flaca"
+      }
+    }
+  ]
+}

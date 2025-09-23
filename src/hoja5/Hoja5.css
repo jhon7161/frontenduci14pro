@@ -1,0 +1,203 @@
+/* ----------------------------------------------------------------------------- */
+/* VARIABLES DE COLOR (Asumidas de la Hoja1) */
+/* ----------------------------------------------------------------------------- */
+:root {
+    --primary-blue: #4169e1;
+    --soft-blue: #e8f0fe;
+    --light-blue: #d6e0f2;
+    --text-color: #333;
+    --border-color: #ccc;
+    --success-green: #28a745;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ESTILOS GLOBALES DE LA PÁGINA */
+/* ----------------------------------------------------------------------------- */
+
+/* Contenedor principal y layout */
+.hoja5-container {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 40px;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--text-color);
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.hoja5-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hoja5-top-tables-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos para pantallas más grandes (Desktop) */
+@media (min-width: 768px) {
+    .hoja5-top-tables-wrapper {
+        flex-direction: row;
+    }
+
+    .hoja5-left-tables {
+        flex: 2;
+    }
+
+    .hoja5-right-tables-wrapper {
+        flex: 1;
+    }
+}
+
+.hoja5-left-tables,
+.hoja5-right-tables-wrapper,
+.hoja5-equipos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Estilos de las secciones y títulos */
+.hoja5-section-card {
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 15px;
+}
+
+.hoja5-section-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--primary-blue);
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--primary-blue);
+    display: inline-block;
+    padding-bottom: 8px;
+    letter-spacing: 0.5px;
+    width: 100%;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ESTILOS DE TABLAS Y FORMULARIOS */
+/* ----------------------------------------------------------------------------- */
+
+.hoja5-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+.hoja5-data-table th,
+.hoja5-data-table td {
+    border: 1px solid var(--light-blue);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hoja5-data-table thead th {
+    background-color: var(--soft-blue);
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+.hoja5-data-table tbody tr:nth-child(even) {
+    background-color: var(--soft-blue);
+}
+
+/* Estilos de los campos de formulario */
+.hoja5-data-table input[type="text"],
+.hoja5-data-table input[type="date"],
+.hoja5-data-table select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hoja5-data-table input:focus,
+.hoja5-data-table select:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.2);
+}
+
+/* Estilo para el select vacío */
+.hoja5-data-table select {
+    color: #999;
+    font-style: italic;
+}
+
+/* Estilo para el select cuando se ha elegido una opción */
+.hoja5-data-table select:not([value=""]) {
+    color: var(--text-color);
+    font-style: normal;
+}
+
+/* Ocultar el texto de la fecha por defecto */
+.hoja5-data-table input[type="date"] {
+    color: #999;
+}
+
+/* Cambiar a color normal cuando se selecciona una fecha */
+.hoja5-data-table input[type="date"]:valid {
+    color: var(--text-color);
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ESTILOS DE BOTONES */
+/* ----------------------------------------------------------------------------- */
+
+.hoja5-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.hoja5-btn-save {
+    padding: 12px 24px;
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--success-green);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.hoja5-btn-save:hover {
+    background-color: #218838;
+}
+
+.hoja5-btn-nav {
+    padding: 12px 24px;
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--primary-blue);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.hoja5-btn-nav:hover {
+    background-color: #3857bf;
+}
