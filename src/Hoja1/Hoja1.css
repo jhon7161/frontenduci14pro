@@ -4,8 +4,8 @@
  * -----------------------------------------------------------------------------
  */
 :root {
-    --primary-blue: #4169E1;
-    --soft-blue: #F0F8FF;
+    --primary-blue: #4169e1;
+    --soft-blue: #f0f8ff;
     --light-blue: #eef2f6;
     --text-color: #333;
     --border-color: #c0c0c0;
@@ -34,76 +34,11 @@ body {
     width: 100%;
     min-height: 100vh;
     padding: 30px 40px;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: "Georgia", "Times New Roman", serif;
     color: var(--text-color);
     line-height: 1.6;
     box-sizing: border-box;
     margin: 0 auto;
-}
-
-/*
- * -----------------------------------------------------------------------------
- * ESTILOS DE TABLAS
- * -----------------------------------------------------------------------------
- */
-
-.data-table, .med-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 25px;
-    font-size: 1.1rem;
-    color: var(--text-color);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-    border-radius: 8px;
-    overflow: hidden;
-    table-layout: fixed;
-}
-
-.data-table th, .med-table th {
-    padding: 0.8rem;
-    text-align: left;
-    background-color: var(--soft-blue);
-    font-weight: bold;
-    color: var(--primary-blue);
-    border-right: 1px solid var(--primary-blue);
-    border-bottom: 1px solid var(--primary-blue);
-}
-
-.data-table td, .med-table td {
-    padding: 0.8rem;
-    text-align: left;
-    border-right: 1px solid var(--light-blue);
-    border-bottom: 1px solid var(--light-blue);
-}
-
-.data-table tbody tr:nth-child(even), .med-table tbody tr:nth-child(even) {
-    background-color: var(--soft-blue);
-}
-
-.data-table tbody tr:hover, .med-table tbody tr:hover {
-    background-color: var(--light-blue);
-    cursor: pointer;
-}
-
-/*
- * Asigna anchos a cada columna para una distribución óptima.
- * Aquí le decimos al navegador cómo distribuir el 100% del ancho de la tabla.
- */
-.col-fecha { width: 15%; }
-.col-nombre { width: 45%; }
-.coll-nombre { width: 50%; }
-.colll-nombre { width: 30%; }
-.col-horas { width: 30%; }
-.colll-horas { width: 30%; }
-.col-dosis { width: 40%; }
-.coll-dosis { width: 40%; }
-.colll-dosis { width: 27%; }
-.col-via { width: 35%; }
-.colll-ordenado { width: 15%; }
-.col-acciones {
-    width: 15%;
-    text-align: center;
 }
 
 /*
@@ -131,30 +66,26 @@ body {
     text-align: center;
 }
 
-/*
- * -----------------------------------------------------------------------------
- * CUADRÍCULA DE FORMULARIOS E INPUTS
- * -----------------------------------------------------------------------------
- */
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
     padding: 0;
-    border-top: 1px solid var(--primary-blue);
-    border-left: 1px solid var(--primary-blue);
+    border-top: none;
+    border-left: none;
 }
 
 .input-group {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5px;
+    padding: 10px 15px;
     box-sizing: border-box;
-    border-right: 1px solid var(--primary-blue);
-    border-bottom: 1px solid var(--primary-blue);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
     background-color: var(--soft-blue);
     transition: all 0.3s ease-in-out;
+    flex: 1 1 200px;
 }
 
 .input-group:hover {
@@ -203,7 +134,6 @@ body {
  * ESTILOS DE BOTONES
  * -----------------------------------------------------------------------------
  */
-
 .btn {
     padding: 1rem 1.75rem;
     font-size: 1rem;
@@ -262,14 +192,17 @@ body {
 }
 
 .btn--danger {
-    border-color: var(--error-color);
-    color: var(--error-color);
+  border-color: var(--error-color);
+  color: var(--error-color);
+  width: auto;       /* 👈 se ajusta al texto */
+  padding: 2px 6px;  /* 👈 menos espacio interno */
+  font-size: 12px;   /* opcional: letra más pequeña */
 }
 
 .btn--danger:hover {
     background-color: var(--error-color);
     color: #fff;
-    box-shadow: 0 4px 10px rgba(220, 53, 69, 0.3);
+    box-shadow: 0 4px 4px rgba(220, 53, 69, 0.3);
 }
 
 .btn--danger:active {
@@ -296,13 +229,13 @@ body {
  * ESTILOS DE LISTAS (COMPONENTES LISTSECTION) Y CHIPS
  * -----------------------------------------------------------------------------
  */
-
 .list-section {
     background-color: #fdfdfd;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 1.5rem;
+    flex-basis: 47%;
 }
 
 .list-section h3 {
@@ -326,9 +259,8 @@ body {
     border-radius: 4px;
 }
 
+/* Este estilo se aplica a los botones "Eliminar" */
 .acciones-col {
-    width: 150px;
-    min-width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,9 +312,15 @@ body {
     margin-top: 2rem;
 }
 
-.status-message--loading { color: #007bff; }
-.status-message--error { color: var(--error-color); }
-.status-message--not-found { color: #6c757d; }
+.status-message--loading {
+    color: #007bff;
+}
+.status-message--error {
+    color: var(--error-color);
+}
+.status-message--not-found {
+    color: #6c757d;
+}
 
 .modal-overlay {
     position: fixed;
@@ -408,28 +346,69 @@ body {
 
 /*
  * -----------------------------------------------------------------------------
- * ESTILOS DE IMPRESIÓN
+ * ESTILOS GENERALES DE TABLAS
  * -----------------------------------------------------------------------------
  */
-@media print {
-    body {
-        background: white;
-        margin: 0;
-        padding: 0;
-    }
 
-    .hoja-papel-container {
-        box-shadow: none;
-        padding: 0;
-        max-width: 100%;
-    }
+/* Hace que todas las tablas con la clase `data-table` o `med-table`
+   ocupen el 100% del ancho de su contenedor. */
+.data-table,
+.med-table {
+    width: 100%;
+    border-collapse: collapse; /* Mantiene los bordes de la tabla unidos */
+    table-layout: fixed;
+}
 
-    .btn,
-    .button-container,
-    .modal-overlay,
-    .modal-content,
-    nav,
-    header {
-        display: none !important;
-    }
+/* El contenedor `table-wrapper` agrega un scroll horizontal si la tabla es demasiado ancha. */
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Mejora la experiencia en dispositivos iOS */
+}
+
+/*
+ * -----------------------------------------------------------------------------
+ * RESPONSIVIDAD (Media Queries)
+ * -----------------------------------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .coll-nombre,
+  .coll-dosis,
+  .acciones-col { /* Agrega esta línea para que la columna de acciones también sea flexible */
+    width: auto !important;
+    min-width: auto !important; /* También es importante anular cualquier min-width fijo */
+  }
+
+  /* El resto de tus estilos responsivos para tablas, como estos, están correctos: */
+  .data-table thead, .med-table thead {
+    display: none;
+  }
+  
+  .data-table tr, .med-table tr {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+  }
+  
+  .data-table td, .med-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .data-table td:last-child, .med-table td:last-child {
+    border-bottom: none;
+  }
+
+  .data-table td::before, .med-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-align: left;
+    color: var(--text-color);
+    width: 60%;
+  }
 }

@@ -22,8 +22,8 @@
     padding: 30px 40px;
     font-family: Georgia, 'Times New Roman', serif;
     color: var(--text-color);
-    background-color: #f9f9f9;
     box-sizing: border-box;
+    background-color: #f9f9f9;
 }
 
 .hoja5-grid {
@@ -44,12 +44,13 @@
         flex-direction: row;
     }
 
+    /* AJUSTE: Proporción 3:1 para la tabla de Dispositivos Invasivos */
     .hoja5-left-tables {
-        flex: 2;
+        flex: 3; 
     }
 
     .hoja5-right-tables-wrapper {
-        flex: 1;
+        flex: 1; 
     }
 }
 
@@ -200,4 +201,86 @@
 
 .hoja5-btn-nav:hover {
     background-color: #3857bf;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* OCULTAR FLECHA DE SELECTORES (Dropdown Arrow) */
+/* ----------------------------------------------------------------------------- */
+
+.hoja5-data-table select {
+    /* Oculta la flecha por defecto en la mayoría de los navegadores */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    /* Elimina el espacio que dejaría la flecha por defecto */
+    padding-right: 10px; 
+    background-image: none;
+}
+
+.hoja5-data-table select::-ms-expand {
+    display: none;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* AJUSTES DE TAMAÑO PARA INPUTS DE MTN Y SELECTS */
+/* ----------------------------------------------------------------------------- */
+
+/* 1. Ajuste general de estilo para inputs de texto en tablas */
+.hoja5-section-card table.hoja5-data-table input[type="text"] {
+    width: 100%;
+    min-width: 50px; 
+    padding: 6px; 
+    font-size: 1rem;
+    height: 35px; /* Altura uniforme */
+}
+
+/* 2. Aumento del ancho para inputs M, T, N y TOTAL de la tabla LISTA DE EQUIPOS Y MEDICAMENTOS */
+.hoja5-section-card:has(h3:contains("LISTA DE EQUIPOS Y MEDICAMENTOS")) .hoja5-data-table td:nth-child(2) input, 
+.hoja5-section-card:has(h3:contains("LISTA DE EQUIPOS Y MEDICAMENTOS")) .hoja5-data-table td:nth-child(3) input, 
+.hoja5-section-card:has(h3:contains("LISTA DE EQUIPOS Y MEDICAMENTOS")) .hoja5-data-table td:nth-child(4) input,
+.hoja5-section-card:has(h3:contains("LISTA DE EQUIPOS Y MEDICAMENTOS")) .hoja5-data-table td:nth-child(5) input {
+    min-width: 80px; 
+    max-width: 120px; 
+}
+
+/* 3. Aumento del ancho para los SELECTS M, T, N de la tabla DISPOSITIVOS INVASIVOS (SOLUCIÓN DEFINITIVA DE VISIBILIDAD) */
+.hoja5-section-card:has(h3:contains("DISPOSITIVOS INVASIVOS")) .hoja5-data-table select {
+    width: 100%;
+    /* AUMENTO: Damos un ancho mínimo suficiente */
+    min-width: 90px; 
+    max-width: 100px; 
+    /* Aumento de la fuente para hacer el símbolo más visible y ancho */
+    font-size: 1.2rem; 
+    /* AJUSTE CLAVE: Reducir el padding vertical y la altura de línea */
+    padding: 2px 2px; 
+    line-height: 1; /* Esto asegura que el texto no se corte verticalmente */
+    height: 35px; 
+}
+
+/* 4. Ajuste opcional para las columnas M, T, N de la tabla DISPOSITIVOS INVASIVOS */
+.hoja5-section-card:has(h3:contains("DISPOSITIVOS INVASIVOS")) .hoja5-data-table th:nth-child(3),
+.hoja5-section-card:has(h3:contains("DISPOSITIVOS INVASIVOS")) .hoja5-data-table th:nth-child(4),
+.hoja5-section-card:has(h3:contains("DISPOSITIVOS INVASIVOS")) .hoja5-data-table th:nth-child(5) {
+    width: 8%; 
+}
+
+/* ----------------------------------------------------------------------------- */
+/* AJUSTE: Disminuir tamaño de la tabla CONVENCIONES */
+/* ----------------------------------------------------------------------------- */
+
+.hoja5-convenciones-legend {
+    padding: 5px; /* Reducción adicional del padding del contenedor */
+}
+
+.hoja5-convenciones-legend h4 {
+    font-size: 1.1rem; 
+    margin-bottom: 5px;
+}
+
+.hoja5-convenciones-table th, 
+.hoja5-convenciones-table td {
+    padding: 3px; /* Reducción máxima de relleno */
+    font-size: 0.95rem; /* Fuente un poco más pequeña */
+    width: 25%; 
 }

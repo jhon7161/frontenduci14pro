@@ -1,106 +1,72 @@
-/* Contenedor principal de la hoja */
+/* ==================== */
+/* ESTILOS GENERALES    */
+/* ==================== */
 .hoja3-container {
-  background-color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  min-height: 100vh;
-  padding: 30px 40px;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background-color: #f0f2f5;
   color: #333;
   line-height: 1.6;
   box-sizing: border-box;
-  margin: 0 auto;
 }
 
-/* Título de la página */
-.main-title {
+/* Títulos */
+.hoja3-main-title {
+  color: #2c3e50;
   text-align: center;
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.hoja3-subtitle {
+  color: #34495e;
+  font-size: 18px;
+  margin: 15px 0 10px;
   border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
-/* Contenedor para la tabla que permite desplazamiento horizontal */
-.data-table-wrapper {
+/* ==================== */
+/* ESTILOS TABLA        */
+/* ==================== */
+.hoja3-table-container {
+  width: 100%;
   overflow-x: auto;
-  margin-top: 25px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  border-radius: 8px;
-  overflow-y: hidden;
+  margin: 20px 0;
 }
 
-/* Estilos de la tabla */
-.data-table {
+.hoja3-table-container table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 1.1rem;
-  color: #333;
-  table-layout: fixed;
-  min-width: 1200px; /* Para asegurar el desplazamiento horizontal */
-}
-
-.data-table th,
-.data-table td {
-  padding: 0.5rem;
-  text-align: center;
-  border: 1px solid #c0c0c0;
-  white-space: nowrap;
-}
-
-/* Títulos y subtítulos de la tabla */
-.table-title {
-  background-color: #4169e1;
-  color: #fff;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-.table-subtitle {
-  background-color: #f0f8ff;
-  color: #4169e1;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-/* Encabezados fijos */
-.sticky-header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background-color: #f0f8ff; /* Mismo color que subtítulo para continuidad */
-  border-bottom: 2px solid #4169e1;
-}
-
-/* Celda de la hora */
-.time-cell {
-  background-color: #eef2f6;
-  position: sticky;
-  left: 0;
-  z-index: 11;
-  font-weight: bold;
-}
-
-/* Estilos de los inputs */
-.data-table input[type="text"] {
-  width: 90%;
-  padding: 25px 20px; /* <-- Aumentado para hacerlo más alto y ancho */
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 50px; /* <-- Aumentado para hacerlo más ovalado */
-  text-align: center;
   background-color: #fff;
-  outline: none;
+  text-align: center;
 }
 
-.input-header {
-  width: 100%;
-  padding: 5px;
-  box-sizing: border-box;
-  border: none;
-  background-color: transparent;
-  text-align: center;
+/* Encabezados */
+.hoja3-table-container th {
+  color: #000 !important;   /* Negro fijo */
+  background-color: #eaeaea; /* Gris claro */
   font-weight: bold;
-  color: #4169e1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Celdas */
+.hoja3-table-container td {
+  color: #000 !important;   /* Negro fijo */
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Rayado filas */
+.hoja3-table-container tr:nth-child(even) td {
+  background-color: #fafafa;
+}
+
+/* Hover */
+.hoja3-table-container tr:hover td {
+  background-color: #e9f1ff;
 }

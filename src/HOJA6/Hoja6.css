@@ -2,6 +2,352 @@
 /* * VARIABLES GLOBALES DE ESTILO */
 /* ==================================== */
 :root {
+  --color-primary: #007bff;
+  --color-primary-light: #e6f5ff;
+  --color-success: #28a745;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f8f9fa;
+  --color-text-muted: #6c757d;
+  --border-color: #dee2e6;
+
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ==================================== */
+/* * ESTILOS GLOBALES */
+/* ==================================== */
+.hoja6-container {
+  font-family: var(--font-family);
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.seccion {
+  width: 100%;
+}
+
+/* Estilo para los títulos de sección (Hoja de Posiciones, Gases, etc.) */
+h2,
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
+  text-align: left;
+}
+
+/* Estilo específico para el título de las subsecciones internas de Férulas/Fisio */
+.ferulas-title {
+  font-size: 1.25rem; /* Ligeramente más pequeño que h2/h3 */
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-top: 0;
+  margin-bottom: var(--spacing-md);
+  text-align: left;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--color-primary-light);
+}
+
+/* ==================================== */
+/* * ESTILOS DE TABLAS */
+/* ==================================== */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: var(--spacing-md);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+  vertical-align: middle; /* Alineación vertical para inputs y botones */
+}
+
+/* Encabezado principal de la tabla (fila superior) */
+.data-table thead tr:first-child th {
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 600;
+}
+
+/* Encabezados de la segunda fila y encabezados de columna */
+.data-table th {
+  background-color: var(--color-surface-alt);
+  color: #343a40; /* Color de texto más oscuro para contraste */
+  font-weight: 600;
+}
+
+.data-table input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 5px;
+  transition: all 0.2s ease-in-out;
+  text-align: center; /* Alineación central para la mayoría de los datos */
+}
+
+.data-table input[type="text"]:focus {
+  border-color: var(--color-primary);
+  outline: none;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Estilo específico para el input DÍAS EN VM */
+.data-table .dias-vm-input {
+    width: 70px; /* Ancho más pequeño para un valor corto */
+    margin: 0 auto;
+    display: block;
+}
+
+/* ==================================== */
+/* * ESTILOS DE BOTONES */
+/* ==================================== */
+.button {
+    display: flex;
+    justify-content: flex-end; /* Alinear a la derecha para HojaNav y Guardar */
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn--success {
+  background-color: var(--color-success);
+  color: white;
+}
+
+.btn--success:hover:not(:disabled) {
+  background-color: #1e7e34;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn--success:disabled {
+  background-color: #a4cfa9;
+  cursor: not-allowed;
+}
+
+/* ==================================== */
+/* * SECCIÓN FÉRULAS Y FISIOTERAPIA (Estilos originales) */
+/* ==================================== */
+.ferulas-and-fisio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* Subcontenedores adaptables */
+.ferulas-subsection,
+.fisio-dp-subsection {
+  flex: 1 1 0;
+  min-width: 300px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+}
+
+/* Opciones internas */
+.ferulas-opciones-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.opciones-ferulas-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Botones de opciones */
+.opcion-ferula {
+  padding: 10px 15px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  background-color: var(--color-surface);
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+}
+
+.opcion-ferula.active {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.opcion-ferula:hover:not(.active) {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Celda de entrada para Fisioterapia */
+.fisio-input-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.fisio-input-cell .label-above-input {
+  font-weight: bold;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.fisio-input-cell input {
+    /* Asegurar que el input de fisio use el mismo estilo que los inputs de tabla pero sin centrar texto */
+    text-align: left;
+}
+
+/* Etiqueta DP */
+.dp-label-cell {
+  font-weight: bold;
+  color: var(--color-text-muted);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-surface);
+  margin: var(--spacing-md) 0; /* Ajuste para centrar y dar espacio */
+  height: fit-content;
+}
+
+/* Botón toggle (para Posiciones y Ejercicios) */
+.toggle-button {
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: transparent;
+  background-color: var(--color-surface);
+  transition: all 0.2s ease-in-out;
+  margin: auto;
+}
+
+.toggle-button.active {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+  color: white;
+  box-shadow: var(--shadow-sm);
+  transform: scale(1.05);
+}
+
+.toggle-button:hover:not(.active) {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary);
+}
+
+/* ==================================== */
+/* * MEDIA QUERIES PARA RESPONSIVIDAD */
+/* ==================================== */
+@media (max-width: 768px) {
+  .ferulas-subsection,
+  .fisio-dp-subsection {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+
+  .ferulas-and-fisio-container {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+
+  .dp-label-cell {
+    margin: 0;
+  }
+}
+/* Contenedor padre */
+.ferulas-and-fisio-container {
+  display: flex;
+  flex-wrap: nowrap;       /* 🔹 siempre en una sola fila */
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+}
+
+/* Cada bloque (Posiciones, Férulas, DP, Fisioterapia) */
+.ferulas-subsection,
+.fisio-dp-subsection,
+.dp-label-cell {
+  flex: 1;                  /* 🔹 cada uno ocupa espacio equitativo */
+  min-width: 0;             /* 🔹 evita overflow */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+/* Ajuste del DP para que no quede gigante */
+.dp-label-cell {
+  flex: 0.6;                /* 🔹 ocupa un poco menos que Férulas o Fisio */
+  text-align: center;
+  margin: 0;
+}
+/* ==================================== */
+/* * VARIABLES GLOBALES DE ESTILO */
+/* ==================================== */
+:root {
   --color-primary: #007bff;
   --color-primary-light: #e6f5ff;
   --color-success: #28a745;
@@ -39,13 +385,22 @@
   width: 100%;
 }
 
-h2, .ferulas-title {
+h2,
+h3 {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-primary);
   margin-top: var(--spacing-xl);
   margin-bottom: var(--spacing-md);
   text-align: left;
+}
+
+.ferulas-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--color-primary-light);
 }
 
 /* ==================================== */
@@ -64,16 +419,18 @@ h2, .ferulas-title {
   padding: 8px 12px;
   border: 1px solid var(--border-color);
   text-align: center;
+  vertical-align: middle;
 }
 
 .data-table thead tr:first-child th {
   background-color: var(--color-primary);
   color: white;
-  font-weight: 600;
 }
 
 .data-table th {
   background-color: var(--color-surface-alt);
+  color: #343a40;
+  font-weight: 600;
 }
 
 .data-table input[type="text"] {
@@ -83,6 +440,7 @@ h2, .ferulas-title {
   border-radius: var(--radius-sm);
   padding: 5px;
   transition: all 0.2s ease-in-out;
+  text-align: center;
 }
 
 .data-table input[type="text"]:focus {
@@ -91,36 +449,74 @@ h2, .ferulas-title {
   box-shadow: var(--shadow-sm);
 }
 
+.data-table .dias-vm-input {
+  width: 70px;
+  margin: 0 auto;
+  display: block;
+}
+
 /* ==================================== */
-/* * SECCIÓN FÉRULAS Y FISIOTERAPIA */
+/* * BOTONES */
+/* ==================================== */
+.button {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow-sm);
+  transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.btn--success {
+  background-color: var(--color-success);
+  color: white;
+}
+
+.btn--success:hover:not(:disabled) {
+  background-color: #1e7e34;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn--success:disabled {
+  background-color: #a4cfa9;
+  cursor: not-allowed;
+}
+
+/* ==================================== */
+/* * FÉRULAS Y FISIOTERAPIA */
 /* ==================================== */
 .ferulas-and-fisio-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* 🔹 siempre en una fila en pantallas grandes */
   justify-content: space-between;
-  align-items: stretch; /* ✅ igualar altura de hijos */
-  gap: 2rem;
-  padding: 1.5rem;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 1rem;
   background-color: var(--color-surface-alt);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   width: 100%;
-  margin-top: 2rem;
 }
 
-/* Subcontenedores adaptables */
 .ferulas-subsection,
 .fisio-dp-subsection {
-  flex: 1 1 0; /* ✅ crece y encoge con base 0 */
-  min-width: 300px;
-  max-width: 100%;
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  height: 100%; /* ✅ igual altura si comparten fila */
 }
 
-/* Opciones internas */
 .ferulas-opciones-group {
   display: flex;
   flex-direction: column;
@@ -129,11 +525,10 @@ h2, .ferulas-title {
 
 .opciones-ferulas-group {
   display: flex;
-  flex-wrap: wrap;
   gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
-/* Botones de opciones */
 .opcion-ferula {
   padding: 10px 15px;
   border: 2px solid var(--border-color);
@@ -159,15 +554,27 @@ h2, .ferulas-title {
   background-color: var(--color-primary);
   color: white;
   border-color: var(--color-primary);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-sm);
 }
 
-/* Celda de entrada para Fisioterapia */
+/* DP */
+.dp-label-cell {
+  flex: 0.6; /* 🔹 ocupa menos espacio que los otros */
+  font-weight: bold;
+  color: var(--color-text-muted);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-surface);
+}
+
+/* Fisioterapia */
 .fisio-input-cell {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 5px;
 }
 
@@ -177,21 +584,11 @@ h2, .ferulas-title {
   font-size: 0.95rem;
 }
 
-/* Etiqueta DP */
-.dp-label-cell {
-  font-weight: bold;
-  color: var(--color-text-muted);
+.fisio-input-cell input {
   text-align: left;
-  display: flex;
-  align-items: center;
-  padding: 0.8rem;
-  border: 2px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  background-color: var(--color-surface);
-  margin: 0 1rem;
 }
 
-/* Botón toggle */
+/* Toggle botones */
 .toggle-button {
   width: 30px;
   height: 30px;
@@ -218,17 +615,21 @@ h2, .ferulas-title {
 }
 
 .toggle-button:hover:not(.active) {
-  background-color: rgb(230, 245, 255);
-  border-color: var(--color-primary-light);
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary);
 }
 
 /* ==================================== */
-/* * MEDIA QUERIES PARA RESPONSIVIDAD */
+/* * RESPONSIVE */
 /* ==================================== */
 @media (max-width: 768px) {
-  .ferulas-subsection,
-  .fisio-dp-subsection {
-    flex: 1 1 100%;
-    min-width: 100%;
+  .ferulas-and-fisio-container {
+    flex-direction: column; /* 🔹 en pantallas chicas se apila */
+    gap: var(--spacing-lg);
+  }
+
+  .dp-label-cell {
+    flex: 1;
+    margin: 0;
   }
 }

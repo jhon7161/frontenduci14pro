@@ -184,7 +184,7 @@ export default function Hoja3() {
         </table>
       </div>
 
-      <div className="button-container">
+      <div className="button">
         <button onClick={guardarHoja} className="btn btn--success btn--lg">
           Guardar Hoja 3
         </button>

@@ -89,15 +89,21 @@ const Hoja4 = () => {
     const handleBradenChange = (campo, valor) => {
         const nuevaBraden = { ...bradenData, [campo]: valor };
         let total = 0;
+        // La lógica de puntuación debe basarse en el valor numérico (1, 2, 3 o 4)
         Object.keys(bradenOptions).forEach((k) => {
             const puntuacion = nuevaBraden[k];
-            if (puntuacion !== null) total += puntuacion;
+            // Asegúrate de sumar solo si el valor es un número (diferente de null)
+            if (typeof puntuacion === 'number') total += puntuacion;
         });
+        
         nuevaBraden.total = total > 0 ? `${total}/23` : "";
-        if (total <= 12) nuevaBraden.riesgo = "Alto riesgo";
-        else if (total <= 14) nuevaBraden.riesgo = "Riesgo moderado";
-        else if (total <= 16) nuevaBraden.riesgo = "Riesgo bajo";
-        else nuevaBraden.riesgo = "Sin riesgo";
+        
+        // La lógica de riesgo debe basarse en el total numérico (no en la cadena)
+        if (total <= 12 && total > 0) nuevaBraden.riesgo = "Alto riesgo"; // total > 0 para evitar que 0 sea "Alto riesgo"
+        else if (total <= 14 && total > 0) nuevaBraden.riesgo = "Riesgo moderado";
+        else if (total <= 18 && total > 0) nuevaBraden.riesgo = "Riesgo bajo"; // Corregido: el rango es 15-18
+        else if (total >= 19) nuevaBraden.riesgo = "Sin riesgo";
+        else nuevaBraden.riesgo = ""; // Si total es 0 o no se ha completado
 
         setBradenData(nuevaBraden);
     };
@@ -117,7 +123,7 @@ const Hoja4 = () => {
     };
 
     return (
-        <div className="hoja4-container">
+        <div className="hoja4-container"> {/* Aquí se corrigió el error de sintaxis '<' */}
             <HeaderHoja paginaActual={4} totalPaginas={6} />
             <h2 className="header-title center">Control Neurológico</h2>
 
@@ -169,84 +175,112 @@ const Hoja4 = () => {
                 </table>
                 <TablaConvenciones hoja4Datos={hoja4Datos} setHoja4Datos={setHoja4Datos} />
                 <RichmondRass value={hoja4Datos} onChange={setHoja4Datos} className="section-richmond" />
+            </div> {/* Cierre correcto de hoja4-table-wrapper */}
 
-                <div className="braden-upp-container">
-                    <div className="braden-container">
-                        <h3>Escala de Braden</h3>
-                        <div className="braden-condiciones-fila">
-    <span>Condiciones</span>
-    <div className="condiciones-numeros">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        {activeCategory !== 'Movilidad' && <span>4</span>}
-    </div>
-</div>
-                        {Object.entries(bradenOptions).map(([campo, opciones]) => {
-    const opcionesAMostrar = campo === 'movilidad' ? opciones.slice(0, 3) : opciones;
+            {/* INICIO: Contenedor principal de Braden y UPP */}
+            <div className="braden-upp-container">
+                <div className="braden-container">
+                    <h3>Escala de Braden</h3>
 
-    return (
-        <div
-            key={campo}
-            className="braden-row"
-            onClick={() => setActiveCategory(campo)} // Esto actualiza el estado
-        >
-            <span>{campo}</span>
-            {opcionesAMostrar.map((op, idx) => (
-                <label key={idx}>
-                    <input
-                        type="radio"
-                        name={campo}
-                        checked={bradenData[campo] === idx + 1}
-                        onChange={() => handleBradenChange(campo, idx + 1)}
-                    />
-                    {op}
-                </label>
-            ))}
-        </div>
-    );
-})}
-                        <div className="braden-total">
-                            <strong>Total:</strong> {bradenData.total || "--"} ({bradenData.riesgo || ""})
-                        </div>
-                    </div>
-                    <div className="clasificacion-upp-container">
-                        <div className="braden-clasificacion-container">
-                            <h3>Clasificación del Riesgo</h3>
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Rango</th>
-                                        <th>Puntaje</th>
+                    <table className="braden-table">
+                        <thead>
+                            <tr>
+                                <th>Condición</th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {Object.entries(bradenOptions).map(([campo, opciones]) => {
+                                const opcionesAMostrar =
+                                    campo === "movilidad" ? opciones.slice(0, 3) : opciones;
+
+                                return (
+                                    <tr key={campo}>
+                                        <td className="braden-condicion">{campo}</td>
+                                        {opcionesAMostrar.map((op, idx) => (
+                                            <td key={idx} className="braden-radio-cell">
+                                                <label>
+                                                    <input
+                                                        type="radio"
+                                                        name={campo}
+                                                        checked={bradenData[campo] === idx + 1}
+                                                        onChange={() => handleBradenChange(campo, idx + 1)}
+                                                    />
+                                                    <span className="opcion-texto">{op}</span>
+                                                </label>
+                                            </td>
+                                        ))}
+                                        {/* Si movilidad solo tiene 3 opciones, dejamos un <td> vacío */}
+                                        {campo === "movilidad" && <td></td>}
                                     </tr>
-                                </thead>
-                                <tbody>
-                                    {bradenRiesgo.map((fila, index) => (
-                                        <tr key={index}>
-                                            <td>{fila.rango}</td>
-                                            <td>{fila.puntaje}</td>
-                                        </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
-                        <div className="upp-container">
-                            <h3>UPP</h3>
-                            {(bradenData.upp || defaultBraden.upp).map((fila, i) => (
-                                <div key={i} className="upp-row">
-                                    <label>
-                                        D(<input type="text" value={fila.der} onChange={e => handleSitioChange(i, "der", e.target.value)} />)
-                                    </label>
-                                    <label>
-                                        I(<input type="text" value={fila.izq} onChange={e => handleSitioChange(i, "izq", e.target.value)} />)
-                                    </label>
-                                </div>
-                            ))}
-                        </div>
+                                );
+                            })}
+                        </tbody>
+                    </table>
+
+                    <div className="braden-total">
+                        <strong>Total:</strong> {bradenData.total || "--"}{" "}
+                        ({bradenData.riesgo || ""})
                     </div>
                 </div>
-            </div>
 
+                <div className="clasificacion-upp-container">
+                    <div className="braden-clasificacion-container">
+                        <h3>Clasificación del Riesgo</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Rango</th>
+                                    <th>Puntaje</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {bradenRiesgo.map((fila, index) => (
+                                    <tr key={index}>
+                                        <td>{fila.rango}</td>
+                                        <td>{fila.puntaje}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div className="upp-container">
+                        <h3>UPP</h3>
+                        {(bradenData.upp || defaultBraden.upp).map((fila, i) => (
+                            <div key={i} className="upp-row">
+                                <label>
+                                    D(
+                                    <input
+                                        type="text"
+                                        value={fila.der}
+                                        onChange={(e) =>
+                                            handleSitioChange(i, "der", e.target.value)
+                                        }
+                                    />
+                                    )
+                                </label>
+                                <label>
+                                    I(
+                                    <input
+                                        type="text"
+                                        value={fila.izq}
+                                        onChange={(e) =>
+                                            handleSitioChange(i, "izq", e.target.value)
+                                        }
+                                    />
+                                    )
+                                </label>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div> {/* FIN: Cierre de .braden-upp-container */}
+
+            {/* SECCIÓN DE BOTONES: Aparece DEBAJO de la sección Braden/UPP */}
             <div className="button">
                 <button className="btn btn--lg btn--success" onClick={guardarHojaManualmente}>Guardar Hoja 4</button>
                 <HojaNav pacienteId={id} />

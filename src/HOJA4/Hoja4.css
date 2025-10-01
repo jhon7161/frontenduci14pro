@@ -1,325 +1,288 @@
-/* ----------------------------------------------------------------------------- */
-/* VARIABLES DE COLOR (Asumidas de la Hoja1) */
-/* ----------------------------------------------------------------------------- */
-:root {
-    --primary-blue: #4169e1;
-    --soft-blue: #e8f0fe;
-    --light-blue: #d6e0f2;
-    --text-color: #333;
-    --border-color: #ccc;
-    --success-green: #28a745;
-}
-
-/* ----------------------------------------------------------------------------- */
-/* ESTILOS GLOBALES DE LA PÁGINA */
-/* ----------------------------------------------------------------------------- */
+/* ==================== */
+/* CONTENEDOR PRINCIPAL */
+/* ==================== */
 .hoja4-container {
-    width: 100vw;
-    min-height: 100vh;
-    margin: 0;
-    padding: 30px 40px;
-    font-family: Georgia, 'Times New Roman', serif;
-    color: var(--text-color);
-    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
     box-sizing: border-box;
 }
 
 /* Encabezado */
-.header-title.center {
-    color: var(--primary-blue);
-    font-size: 1.8rem;
-    font-weight: bold;
-    border-bottom: 2px solid var(--primary-blue);
-    display: inline-block;
-    padding-bottom: 8px;
-    letter-spacing: 0.5px;
-    display: block;
+.hoja4-container .header-title {
+    color: #2c3e50;
     text-align: center;
-    margin: 0 auto 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-/* Tablas principales */
+/* ======================================= */
+/* TABLA NEUROLÓGICA (Scroll en Móvil)     */
+/* ======================================= */
 .hoja4-table-wrapper {
-    overflow-x: auto;
-    margin-bottom: 30px;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    background: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    overflow-x: auto; /* Habilita el desplazamiento horizontal si el contenido es demasiado ancho */
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .hoja4-table {
+    /* Define un ancho mínimo para que la tabla no se rompa en móvil, forzando el scroll */
+    min-width: 1100px; 
+    border-collapse: collapse;
+    background-color: #fff;
+    text-align: center;
+    width: 100%; /* Asegura que la tabla intente estirarse */
+}
+
+/* Encabezados y Celdas */
+.hoja4-table th {
+    color: #000 !important;
+    background-color: #eaeaea;
+    font-weight: bold;
+    padding: 8px 4px; /* Padding ajustado */
+    border: 1px solid #ccc;
+    font-size: 13px; /* Fuente ligeramente más pequeña */
+}
+
+.hoja4-table td {
+    color: #000 !important;
+    padding: 6px 4px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    background-color: #fff;
+}
+
+/* Inputs en tabla */
+.hoja4-table input {
+    width: 100%;
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 13px;
+    background: transparent;
+    color: #000;
+}
+
+/* Rayado filas */
+.hoja4-table tr:nth-child(even) td {
+    background-color: #fafafa;
+}
+
+.hoja4-table tr:hover td {
+    background-color: #e9f1ff;
+}
+
+/* =================================================== */
+/* SECCIÓN BRADEN Y UPP (Diseño Flexbox y Responsivo) */
+/* =================================================== */
+.section-richmond {
+    margin: 20px 0;
+}
+
+.braden-upp-container {
+    display: flex;
+    flex-wrap: wrap; /* Apila elementos en pantallas pequeñas */
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Contenedor de Braden (Tabla principal) */
+.braden-container {
+    flex: 1 1 100%; /* Por defecto, ocupa el 100% de ancho */
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    min-width: 0;
+    overflow-x: auto; /* Permite scroll horizontal solo en la tabla de braden si es necesario */
+}
+
+/* Contenedor de Clasificación y UPP */
+.clasificacion-upp-container {
+    flex: 1 1 100%; /* Por defecto, ocupa el 100% de ancho */
+    display: flex;
+    flex-wrap: wrap; /* Para que Clasificación y UPP se apilen en móvil si es necesario */
+    gap: 20px;
+    min-width: 0;
+}
+
+.braden-clasificacion-container,
+.upp-container {
+    flex: 1 1 45%; /* Intentan compartir el 50% del ancho de su contenedor */
+    min-width: 250px; /* Ancho mínimo para que no se compriman */
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Media Query para Escritorio (768px y más) --- */
+@media (min-width: 768px) {
+    .braden-upp-container {
+        flex-wrap: nowrap; /* Evita que salten de línea */
+    }
+
+    .braden-container {
+        /* Braden toma más espacio para la tabla */
+        flex: 2 1 65%;
+        overflow-x: hidden;
+    }
+
+    .clasificacion-upp-container {
+        /* El contenedor lateral toma menos espacio */
+        flex: 1 1 30%;
+        /* Forzamos que Clasificación y UPP se apilen en el lado derecho */
+        flex-direction: column; 
+    }
+
+    .braden-clasificacion-container,
+    .upp-container {
+        flex: 1 1 auto; /* Se adaptan al espacio verticalmente */
+        min-width: auto;
+    }
+}
+
+/* ==================== */
+/* TABLA BRADEN         */
+/* ==================== */
+.braden-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 1.1rem;
+    margin-top: 10px;
+    min-width: 500px; /* Asegura el scroll dentro del contenedor si es necesario */
 }
 
-.hoja4-table thead th {
-    background-color: var(--soft-blue);
-    border: 1px solid var(--primary-blue);
-    color: var(--primary-blue);
-    padding: 12px;
+.braden-table th,
+.braden-table td {
+    border: 1px solid #ccc;
+    padding: 8px 4px; 
+    text-align: center;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+/* Fila condición */
+.braden-condicion {
+    text-align: left;
+    font-weight: 600;
+    background-color: #fafafa;
+    min-width: 140px; 
+    padding-left: 10px;
+}
+
+/* Texto de la opción de radio */
+.opcion-texto {
+    font-size: 0.7rem; /* Fuente más pequeña para ahorrar espacio */
+    display: block;
+    margin-top: 4px;
+    color: #333;
+}
+
+/* Total al final */
+.braden-total {
+    margin-top: 15px;
+    font-size: 16px;
     font-weight: bold;
+    text-align: right;
+    color: #2c3e50;
+}
+
+/* ==================== */
+/* UPP (Úlceras por Presión) */
+/* ==================== */
+/* ==================== */
+/* UPP (Úlceras por Presión) */
+/* ==================== */
+.upp-container h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.upp-row {
+    margin-bottom: 10px; /* Separación un poco mayor entre filas */
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* Aumentamos el espacio entre los grupos D e I */
+    align-items: center; /* Centramos verticalmente */
+}
+
+.upp-row label {
+    flex-grow: 1;
+    display: flex; /* Usamos flex para alinear el texto 'D('/'I(' y el input */
+    align-items: center;
+    justify-content: space-between; /* Distribuye el texto y el input */
+    font-size: 15px; /* Hacemos el texto un poco más grande */
+    font-weight: 500;
+}
+
+.upp-row input {
+    /* AUMENTO DEL TAMAÑO Y ANCHO DEL INPUT */
+    width: 65%; 
+    max-width: 100px; /* Ancho máximo visible, más grande que antes */
+    padding: 6px; /* Aumentamos el padding para un mejor 'tap' */
+    border: 1px solid #ccc;
+    border-radius: 4px;
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    font-size: 16px; /* Aumentamos el tamaño de la fuente dentro del input */
+    color: #000;
 }
 
-.hoja4-table tbody td {
-    border: 1px solid var(--light-blue);
-    padding: 10px;
-    text-align: center;
-}
 
-.hoja4-table tbody tr:nth-child(even) {
-    background-color: var(--soft-blue);
-}
-
-/* Inputs de la tabla */
-.hoja4-table input[type="text"] {
-    width: 70px;
-    padding: 0.4rem;
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    text-align: center;
-    font-size: 1rem;
-    background-color: #fff;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.hoja4-table input[type="text"]:focus {
-    outline: none;
-    border-color: var(--primary-blue);
-    box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.2);
-}
-
-/* Botón de guardar */
+/* ==================== */
+/* BOTONES              */
+/* ==================== */
 .button {
-    text-align: center;
-    margin-top: 2rem;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Apila botones en móvil */
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.btn {
+    width: 100%; /* Ocupa todo el ancho en móvil */
+    max-width: 350px; /* Limita el ancho máximo */
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
 }
 
 .btn--success {
-    background-color: var(--success-green);
+    background: #27ae60;
     color: #fff;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .btn--success:hover {
-    background-color: #218838;
+    background: #1e8449;
 }
 
----
+/* Media Query para botones en escritorio */
+@media (min-width: 600px) {
+    .button {
+        flex-direction: row; /* Vuelve a colocarlos en fila */
+    }
 
-### Estilos para Braden y UPP
-
-Aquí están los estilos específicos para la sección Braden. Se ha consolidado el diseño del contenedor, las filas y los inputs para que coincidan con la apariencia de la **hoja1**.
-
-```css
-/* ----------------------------------------------------------------------------- */
-/* SECCIÓN BRADEN Y UPP */
-/* ----------------------------------------------------------------------------- */
-
-/* Contenedor principal de Braden y UPP */
-.braden-upp-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px auto;
-    width: 95%;
-    justify-content: center;
+    .btn {
+        width: auto;
+    }
 }
 
-/* Contenedor de la Escala de Braden */
-.braden-container {
-    flex: 1 1 60%;
-    min-width: 450px;
-    padding: 20px;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
 
-.braden-container h3 {
-    text-align: center;
-    color: var(--primary-blue);
-    margin-bottom: 15px;
-}
+/* --- CLASES NO MODIFICADAS PERO RELEVANTES --- */
 
-/* Estilo de las filas de opciones de Braden */
-.braden-condiciones-fila,
-.braden-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--light-blue);
-    padding: 10px 0;
-}
-
-.braden-condiciones-fila {
-    font-weight: bold;
-    color: var(--primary-blue);
-    border-bottom: 2px solid var(--primary-blue);
-    margin-bottom: 15px;
-}
-
-.braden-condiciones-fila span {
-    font-size: 1.1rem;
-}
-
-.condiciones-numeros {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-}
-
-.braden-row:hover {
-    background-color: var(--soft-blue);
-}
-
-.braden-row span {
-    font-weight: bold;
-    flex-basis: 150px;
-}
-
-.braden-row label {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 14px;
-}
-
-.braden-total {
-    margin-top: 15px;
-    font-size: 1.1em;
-    text-align: center;
-    font-weight: bold;
-    color: #00695c;
-}
-
-/* Contenedor de Clasificación y UPP */
-.clasificacion-upp-container {
-    flex: 1 1 35%;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-/* Estilos de la tabla de clasificación y UPP */
-/* ----------------------------------------------------------------------------- */
-/* SECCIÓN BRADEN Y UPP */
-/* ----------------------------------------------------------------------------- */
-
-/* Contenedor principal de Braden y UPP */
-.braden-upp-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px auto;
-    width: 95%;
-    justify-content: center;
-}
-
-/* Contenedor de la Escala de Braden */
-.braden-container {
-    flex: 1 1 60%;
-    min-width: 450px;
-    padding: 20px;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-
-.braden-container h3 {
-    text-align: center;
-    color: var(--primary-blue);
-    margin-bottom: 15px;
-}
-
-/* Estilo para las filas de la tabla de Braden usando CSS Grid */
-.braden-condiciones-fila,
-.braden-row {
-    display: grid;
-    grid-template-columns: 180px repeat(4, 1fr); /* 180px para el título, 4 columnas de igual ancho para las opciones */
-    gap: 10px;
-    align-items: center;
-    border-bottom: 1px solid var(--light-blue);
-    padding: 10px 0;
-}
-
-.braden-condiciones-fila {
-    font-weight: bold;
-    color: var(--primary-blue);
-    border-bottom: 2px solid var(--primary-blue);
-    margin-bottom: 15px;
-}
-
-.braden-condiciones-fila span {
-    font-size: 1.1rem;
-}
-
-.braden-row:hover {
-    background-color: var(--soft-blue);
-}
-
-.braden-row span {
-    font-weight: bold;
-}
-
-.braden-row label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.braden-total {
-    margin-top: 15px;
-    font-size: 1.1em;
-    text-align: center;
-    font-weight: bold;
-    color: #00695c;
-}
-
-/* Contenedor de Clasificación y UPP */
-.clasificacion-upp-container {
-    flex: 1 1 35%;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-/* Estilos de la tabla de clasificación y UPP */
-.braden-clasificacion-container,
-.upp-container {
-    padding: 20px;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-
-.braden-clasificacion-container h3,
-.upp-container h3 {
-    text-align: center;
-    color: var(--primary-blue);
-    margin-bottom: 15px;
-}
-
+/* Clasificación Braden (tabla) */
 .braden-clasificacion-container table {
     width: 100%;
     border-collapse: collapse;
@@ -327,42 +290,29 @@ Aquí están los estilos específicos para la sección Braden. Se ha consolidado
 
 .braden-clasificacion-container th,
 .braden-clasificacion-container td {
-    border: 1px solid var(--light-blue);
-    padding: 12px;
+    border: 1px solid #ccc;
+    padding: 6px;
     text-align: center;
+    font-size: 14px;
+    color: #000;
+    background: #fff;
 }
 
 .braden-clasificacion-container th {
-    background-color: var(--soft-blue);
-    color: var(--primary-blue);
+    background: #eaeaea;
 }
 
-.upp-row {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 15px;
+/* Pupilas */
+.pupil-circle {
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    margin: 0 auto;
 }
 
-.upp-row label {
-    font-weight: bold;
-    color: var(--primary-blue);
-}
-
-.upp-row input[type="text"] {
-    width: 120px;
-    padding: 8px 10px;
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    text-align: center;
-    font-size: 1rem;
-}
-
-/* ----------------------------------------------------------------------------- */
-/* Responsive Design */
-/* ----------------------------------------------------------------------------- */
-@media (max-width: 768px) {
-    .braden-upp-container {
-        flex-direction: column;
-    }
-}
+.pupil-1mm { width: 4px; height: 4px; }
+.pupil-2mm { width: 8px; height: 8px; }
+.pupil-3mm { width: 12px; height: 12px; }
+.pupil-4mm { width: 16px; height: 16px; }
+.pupil-5mm { width: 20px; height: 20px; }
+.pupil-6mm { width: 24px; height: 24px; }
